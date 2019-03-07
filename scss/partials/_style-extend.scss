@@ -1,24 +1,11 @@
-.nav-1 {
-        width: 36px;
-        height: 11px;
-    font-family: Dosis;
-
-    font-size: 15px;
+.main-nav {
+        
     
-    font-weight: normal;
-    
-    font-style: normal;
-    
-    font-stretch: normal;
-    
-    line-height: normal;
-    
-    letter-spacing: 0.8px;
-    
-    text-align: left;
-    
-    color: #ffffff;
-    
-      display: flex;
-      align-items: center;
+    width: 600px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
 }

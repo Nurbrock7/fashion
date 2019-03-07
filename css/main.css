@@ -1,24 +1,20 @@
 body {
   background-color: #2f2d2e; }
 
-nav {
+ul {
   overflow: hidden;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  list-style: none;
+  padding: 20px; }
 
-.nav-1 {
-  width: 36px;
-  height: 11px;
-  font-family: Dosis;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.8px;
-  text-align: left;
-  color: #ffffff;
-  display: flex;
-  align-items: center; }
+.main-nav {
+  width: 600px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+  padding: 20px;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
