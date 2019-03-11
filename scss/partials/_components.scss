@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro');
+
+// Banner button
+
+.banner-btn {
+    margin-top: 3rem;
+    margin-left: 40rem;
+    padding: 15px 31px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: #a88d7b;
+    color: #ffffff;
+    outline: none;
+}
+
+// Down arrow
+
+.fa-chevron-down:before {
+    position: absolute;
+    transform: translate(-5.4rem, 22rem);
+    color: #ffffff;
+    font-size: 30px;
+    border-color: #ffffff;
+}
+
+// View More Button
+
+.showcase-goods-section a {
+    position: absolute;
+    top: 400px;
+    right: 1128px;
+    bottom: 112px;
+    left: 622px;
+    width: 150px;
+    height: 40px;
+}
+
+.view-more-btn {
+    padding: 8px 20px;
+    font-family: 'SourceSansPro', sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    background-color: #a88d7b;
+    text-transform: uppercase;
+}

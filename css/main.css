@@ -1,20 +1,209 @@
-body {
-  background-color: #2f2d2e; }
+@import url("https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro");
+* {
+  margin: 0;
+  padding: 0; }
 
-ul {
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  list-style: none;
-  padding: 20px; }
+html {
+  scroll-behavior: smooth; }
+
+.top-nav {
+  width: 100%;
+  height: 53px;
+  line-height: 53px;
+  background-color: #2d2827;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif; }
+  .top-nav li {
+    list-style: none;
+    display: inline-block; }
+  .top-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #999999; }
+
+header {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 945px; }
+
+hr {
+  height: 4px;
+  width: 50px;
+  background-color: #a99d7b;
+  margin: 1rem auto 3rem auto; }
+
+h3,
+p {
+  text-align: center; }
+
+.top-header {
+  font-size: 12px;
+  padding: 0 20rem; }
+
+.fas,
+.fab {
+  margin: 21px 9px; }
 
 .main-nav {
-  width: 600px;
-  margin: 30px auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  list-style-type: none;
-  padding: 20px;
-  text-align: center; }
+  background-color: black;
+  padding: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Dosis', sans-serif; }
+  .main-nav li {
+    list-style: none;
+    display: inline-block; }
+  .main-nav a {
+    text-decoration: none;
+    padding: 1.3rem;
+    color: #ffffff; }
+
+.company-name {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  letter-spacing: 8.5px; }
+
+.top-nav,
+.main-nav {
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal; }
+
+.breathing-room-left {
+  margin-left: 9rem; }
+
+.breathing-room-right {
+  margin-right: 9rem; }
+
+.banner-heading {
+  color: #ffffff;
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
+  text-align: center;
+  padding-top: 12rem;
+  text-transform: uppercase; }
+
+.banner-paragraph {
+  width: 924px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e6e6e6;
+  padding: 2rem 0;
+  margin: 0 auto; }
+
+.product-section-title,
+.collection-section-title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2.5rem 0 .5rem 0; }
+
+.product-img-1,
+.product-img-2,
+.product-img-3 {
+  width: 370px;
+  height: 360px; }
+
+.collection-img-1,
+.collection-img-2 {
+  width: 570px;
+  height: 373px; }
+
+.showcase-goods-section {
+  height: 552px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative; }
+
+.craft-heading {
+  position: absolute;
+  top: 199px;
+  right: 937px;
+  bottom: 316px;
+  left: 433px;
+  width: 530px;
+  height: 37px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 48px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff; }
+
+.craft-paragraph {
+  position: absolute;
+  top: 275px;
+  right: 875px;
+  bottom: 239px;
+  left: 369px;
+  width: 656px;
+  height: 38px;
+  font-family: 'SourceSansPro', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff; }
+
+.banner-btn {
+  margin-top: 3rem;
+  margin-left: 40rem;
+  padding: 15px 31px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  background-color: #a88d7b;
+  color: #ffffff;
+  outline: none; }
+
+.fa-chevron-down:before {
+  position: absolute;
+  transform: translate(-5.4rem, 22rem);
+  color: #ffffff;
+  font-size: 30px;
+  border-color: #ffffff; }
+
+.showcase-goods-section a {
+  position: absolute;
+  top: 400px;
+  right: 1128px;
+  bottom: 112px;
+  left: 622px;
+  width: 150px;
+  height: 40px; }
+
+.view-more-btn {
+  padding: 8px 20px;
+  font-family: 'SourceSansPro', sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  background-color: #a88d7b;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
