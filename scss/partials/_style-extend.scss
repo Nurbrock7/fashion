@@ -57,8 +57,8 @@
 
 // Banner heading
 
-.banner-heading {
-    color: #ffffff;
+.main-heading {
+    color: black;
     font-family: 'Dosis', sans-serif;;
     font-size: 50px;
     font-weight: normal;
@@ -73,7 +73,7 @@
 
 // Banner Paragraph
 
-.banner-paragraph {
+.main-paragraph {
     width: 924px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
@@ -83,9 +83,14 @@
     line-height: 1.67;
     letter-spacing: normal;
     text-align: center;
-    color: #e6e6e6;
+    color: #433a3f;
     padding: 2rem 0;
     margin: 0 auto;
+}
+
+.second-section {
+    background-color: #989788;
+    flood-opacity: 0.5;
 }
 
 .product-section-title,
