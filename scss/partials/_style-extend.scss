@@ -104,14 +104,29 @@
 .product-img-1,
 .product-img-2,
 .product-img-3 {
+
     width: 370px;
     height: 360px;
+    padding: 50px;
+    img {
+        height: 100%;
+        width: 100%;
+    } 
 }
+
+.product {
+    width: 370px;
+    height: 360px;
+    background: #666666;
+}
+
+
 
 .collection-img-1,
 .collection-img-2 {
     width: 570px;
     height: 373px;
+
 }
 
 .showcase-goods-section {

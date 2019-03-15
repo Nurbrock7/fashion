@@ -120,7 +120,18 @@ p {
 .product-img-2,
 .product-img-3 {
   width: 370px;
-  height: 360px; }
+  height: 360px;
+  padding: 50px; }
+  .product-img-1 img,
+  .product-img-2 img,
+  .product-img-3 img {
+    height: 100%;
+    width: 100%; }
+
+.product {
+  width: 370px;
+  height: 360px;
+  background: #666666; }
 
 .collection-img-1,
 .collection-img-2 {

@@ -1,0 +1,24 @@
+//  .featured-imgs {
+//     display: grid !important; 
+//     // grid-template-columns: repeat(3, 1fr);
+//     // grid-template-rows: 1fr;
+//     grid-template-areas:
+//     "img-1 img-2 img-3" ;
+// }
+
+// .product-img-1 {
+//     grid-area: img-1; 
+// }
+
+// .product-img-2 {
+//     grid-area: img-2;  
+// }
+
+// .product-img-3 {
+//     grid-area: img-3;
+// }
+
+.featured-img {
+    display: grid;
+    place-content: center;
+}
