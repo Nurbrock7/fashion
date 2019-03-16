@@ -71,7 +71,8 @@ html {
   margin: 21px 9px; }
 
 header {
-  background-image: url(../images/background-fashion.jpg);
+  color: #000000;
+  background-color: #000000;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -230,6 +231,7 @@ header {
 .product-section-title,
 .collection-section-title,
 .blog-title {
+  background-color: #000000;
   text-transform: uppercase;
   text-align: center;
   padding: 2.5rem 0 .5rem 0; }
@@ -251,6 +253,7 @@ p {
   height: 360px; }
 
 .featured-imgs div {
+  background-color: #000000;
   position: relative; }
 
 .featured-imgs div button {
@@ -269,10 +272,12 @@ p {
 
 .collection-img-1,
 .collection-img-2 {
+  background-color: #2d2827;
   width: 570px;
   height: 373px; }
 
 .showcase-goods-section {
+  background-color: #000000;
   height: 552px;
   background-image: url(../img/18926.jpg);
   background-repeat: no-repeat;
