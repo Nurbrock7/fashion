@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro");
-
-
-html {
-    scroll-behavior: smooth; }
-  
-
-.lookbook-btn {
+.book-btn {
   display: block;
   margin: 0 auto;
   padding: 15px 31px;
@@ -16,7 +10,7 @@ html {
   border: none;
   outline: none; }
 
-.fashion-goods-section a {
+.fashion-section a {
     background-color: #2d2827;
   position: absolute;
   top: 400px;
@@ -45,6 +39,9 @@ html {
   margin: 0;
   padding: 0; }
 
+html {
+  scroll-behavior: smooth; }
+
 .top-nav {
   width: 100%;
   height: 53px;
@@ -66,7 +63,8 @@ html {
   font-size: 12px;
   padding: 0 20rem; }
 
-.fas, .fab {
+.fas,
+.fab {
   margin: 21px 9px; }
 
 header {
@@ -103,14 +101,14 @@ background-color: #000000;
   font-stretch: normal;
   font-style: normal; }
 
-.breathing-room-left {
+.home {
   margin-left: 9rem; }
 
 .breathing-room-right {
   margin-right: 9rem; }
 
-.banner-heading {
-  color: rgb(212, 211, 211);
+.main-heading {
+  color: #ffffff;
   font-family: 'Dosis', sans-serif;
   font-size: 50px;
   font-weight: normal;
@@ -122,7 +120,7 @@ background-color: #000000;
   padding-top: 12rem;
   text-transform: uppercase; }
 
-.banner-paragraph {
+.main-paragraph {
   width: 924px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
@@ -132,12 +130,12 @@ background-color: #000000;
   line-height: 1.67;
   letter-spacing: normal;
   text-align: center;
-  color: rgb(212, 211, 211);
+  color: #e6e6e6;
   padding-top: 40px;
   padding-bottom: 97px;
   margin: 0 auto; }
 
-.arrow-container {
+.arrow {
   margin: 0;
   padding: 0;
   display: flex;
@@ -146,13 +144,13 @@ background-color: #000000;
   height: 60vh;
   background-color: transparent; }
 
-.arrow-downfall {
+.arrow-downflick {
   position: relative;
   width: 50px;
   height: 50px;
   transform: rotate(45deg); }
 
-.arrow-downfall span {
+.arrow-downflick span {
   position: absolute;
   top: 0;
   left: 0;
@@ -168,7 +166,7 @@ background-color: #000000;
   -moz-animation: light-the-way 1s linear infinite;
   -o-animation: light-the-way 1s linear infinite; }
 
-.arrow-downfall span:nth-child(1) {
+.arrow-downflick span:nth-child(1) {
   top: -30px;
   left: -30px;
   animation-delay: 0;
@@ -176,7 +174,7 @@ background-color: #000000;
   -moz-animation-delay: 0;
   -o-animation-delay: 0; }
 
-.arrow-downfall span:nth-child(2) {
+.arrow-downflick span:nth-child(2) {
   top: -15px;
   left: -15px;
   animation-delay: .2s;
@@ -184,7 +182,7 @@ background-color: #000000;
   -moz-animation-delay: .2s;
   -o-animation-delay: .2s; }
 
-.arrow-downfall span:nth-child(3) {
+.arrow-downflick span:nth-child(3) {
   top: 0px;
   left: 0px;
   animation-delay: .4s;
@@ -272,8 +270,7 @@ p {
   width: 570px;
   height: 373px; }
 
-.showcase-goods-section {
-    background-color: #000000;
+.fashion-section {
   height: 552px;
   background-image: url(../img/18926.jpg);
   background-repeat: no-repeat;
@@ -281,7 +278,7 @@ p {
   background-attachment: fixed;
   position: relative; }
 
-.craft-heading {
+.fashion-heading {
   position: absolute;
   top: 199px;
   right: 937px;
@@ -299,7 +296,7 @@ p {
   text-align: center;
   color: #ffffff; }
 
-.craft-paragraph {
+.fashion-paragraph {
   position: absolute;
   top: 275px;
   right: 875px;
@@ -317,7 +314,7 @@ p {
   text-align: center;
   color: #ffffff; }
 
-.blog-title {
+.main-blog-title {
   font-family: SourceSansPro;
   font-size: 25px;
   font-weight: 600;
@@ -328,7 +325,7 @@ p {
   color: #333333;
   text-transform: uppercase; }
 
-.blog-heading {
+.main-blog-heading {
   font-family: SourceSansPro;
   font-size: 25px;
   font-weight: 600;
@@ -340,7 +337,7 @@ p {
   color: #333333;
   text-transform: capitalize; }
 
-.blog-date {
+.main-blog-date {
   font-family: SourceSansPro;
   font-size: 15px;
   font-weight: normal;
@@ -352,7 +349,7 @@ p {
   color: #999999;
   text-transform: capitalize; }
 
-.blog-paragraph {
+.main-blog-paragraph {
   width: 529px;
   height: 239px;
   font-family: SourceSansPro;
@@ -365,23 +362,11 @@ p {
   text-align: left;
   color: #666666; }
 
-.blog-btn {
-  font-family: SourceSansPro;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 3.2;
-  letter-spacing: 1.5px;
-  text-align: left;
-  color: #a88d7b;
-  text-transform: capitalize;
-  text-decoration: none; }
 
 .main-footer {
   padding: 60px; }
 
-.footer-basic-details h2 {
+.footer-name h2 {
   font-family: Dosis;
   font-size: 30px;
   font-weight: 600;
@@ -393,15 +378,15 @@ p {
   color: #e5e5e5;
   text-transform: uppercase; }
 
-.footer-basic-details p {
+.footer-name p {
   text-align: left; }
 
-.footer-basic-details h2 {
+.footer-name h2 {
   padding-bottom: 1.3rem; }
 
-.footer-essentials h4,
-.footer-categories h4,
-.footer-instagram h4 {
+.footer-feat h4,
+.main-footer-categories h4,
+.instagram h4 {
   font-family: SourceSansPro;
   font-size: 18px;
   font-weight: bold;
@@ -414,9 +399,9 @@ p {
   text-transform: uppercase;
   padding-bottom: 1.3rem; }
 
-.footer-essentials h6,
-.footer-categories h6,
-.footer-instagram h6 {
+.footer-feat h6,
+.main-footer-categories h6,
+.instagram h6 {
   font-family: SourceSansPro;
   font-size: 15px;
   font-weight: normal;
@@ -445,12 +430,12 @@ p {
   margin-left: 0;
   padding-left: 0; }
 
-.end-footer {
+.footer-end {
   width: 100%;
   height: 85px;
   background-color: #d7d7d7; }
 
-.end-footer h2 {
+.footer-end h2 {
   font-family: SourceSansPro;
   font-size: 14px;
   font-weight: normal;
@@ -461,6 +446,8 @@ p {
   text-align: center;
   color: #666666; }
 
+
+  // Start of About page
 .top-nav-about {
   width: 100%;
   height: 53px;
