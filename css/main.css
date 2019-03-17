@@ -231,7 +231,6 @@ header {
 .product-section-title,
 .collection-section-title,
 .blog-title {
-  background-color: #000000;
   text-transform: uppercase;
   text-align: center;
   padding: 2.5rem 0 .5rem 0; }
@@ -253,7 +252,6 @@ p {
   height: 360px; }
 
 .featured-imgs div {
-  background-color: #000000;
   position: relative; }
 
 .featured-imgs div button {
