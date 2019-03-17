@@ -94,7 +94,7 @@ header {
   padding: 1.3rem;
   color: #ffffff; }
 
-.company-name {
+.name {
   font-family: 'Dosis', sans-serif;
   font-size: 30px;
   letter-spacing: 8.5px; }
@@ -108,7 +108,7 @@ header {
 .home {
   margin-left: 9rem; }
 
-.breathing-room-right {
+.book-space {
   margin-right: 9rem; }
 
 .main-heading {
@@ -465,7 +465,7 @@ p {
 .main-nav-about a {
   color: #666666; }
 
-.company-name-about {
+.name-about {
   width: 116px;
   height: 22px;
   font-family: Dosis;
@@ -480,21 +480,19 @@ p {
   text-transform: uppercase;
   padding: 0; }
 
-.breathing-room-left-about {
+.home-about {
   margin-left: 431px; }
 
-.breathing-room-right-about {
+.book-space book-space-about {
   margin-right: 52px; }
 
-.about-us-header {
+.about-header {
   width: 100%;
   height: 445px;
   background-image: url(../img/black-on-black-things-picjumbo-com.jpg); }
 
-.about-us-title {
-  padding-top: 180px; }
-
-.about-us-title {
+.about-title {
+  padding-top: 180px;
   font-family: SourceSansPro;
   font-size: 50px;
   font-weight: normal;
@@ -505,7 +503,7 @@ p {
   text-align: center;
   color: #ffffff; }
 
-.center-hero-text {
+.home-icon {
   font-family: SourceSansPro;
   font-size: 15px;
   font-weight: 600;
@@ -516,13 +514,13 @@ p {
   text-align: center;
   color: #cccccc; }
 
-.about-home-link {
+.home-link {
   color: #ffffff;
   text-align: center;
   text-transform: capitalize;
   text-decoration: none; }
 
-.about-us-link {
+.about-page {
   color: #a8a8a8;
   text-align: center;
   text-transform: capitalize;
