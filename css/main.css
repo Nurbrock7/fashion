@@ -41,6 +41,7 @@
   padding: 0; }
 
 html {
+  margin: 0%;
   scroll-behavior: smooth; }
 
 .top-nav {
@@ -245,9 +246,9 @@ h3,
 p {
   text-align: center; }
 
-.product-img-1,
-.product-img-2,
-.product-img-3 {
+.team-img-1,
+.team-img-2,
+.team-img-3 {
   width: 370px;
   height: 360px; }
 
@@ -275,12 +276,13 @@ p {
   height: 373px; }
 
 .fashion-section {
+  background-color: black;
   height: 552px;
-  background-image: url(../img/18926.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  position: relative; }
+  position: relative;
+  color: black; }
 
 .fashion-heading {
   position: absolute;
@@ -318,7 +320,24 @@ p {
   text-align: center;
   color: #ffffff; }
 
-.main-blog-title {
+.main-blog {
+  padding-bottom: 50px;
+  margin-bottom: 1rem;
+  margin-left: 50%;
+  width: 156px;
+  height: 24px;
+  font-family: SourceSansPro;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black-three); }
+
+.main-blog-section {
+  text-align: center;
   font-family: SourceSansPro;
   font-size: 25px;
   font-weight: 600;
@@ -526,7 +545,7 @@ p {
   text-transform: capitalize;
   text-decoration: none; }
 
-.this-is-us img {
+.team img {
   width: 270px;
   height: 305px; }
 
@@ -541,7 +560,7 @@ p {
   text-align: center;
   color: #555555; }
 
-.team-icons .fas .fab {
+.icons .fas .fab {
   width: 18px;
   height: 11px;
   font-family: FontAwesome;
@@ -554,12 +573,11 @@ p {
   text-align: center;
   color: #555555; }
 
-.about-what-we-do {
+.the-team {
   margin-top: 0;
   padding-top: 0; }
 
 .contact-us-header {
-  background-image: url(../img/beverage-3157395_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 25%; }
@@ -569,14 +587,12 @@ p {
   height: 800px; }
 
 .blog-header {
-  background-image: url(../img/blog-793047_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top; }
 
 .lookbook-header {
   width: 100%;
-  background-image: url(../img/beige-sofa.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 40%; }
@@ -611,7 +627,7 @@ p {
   grid-column-gap: 16px;
   justify-items: center; }
 
-.this-is-us {
+.team {
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 30px;
