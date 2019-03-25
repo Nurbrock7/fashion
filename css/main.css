@@ -468,23 +468,28 @@ p {
   text-align: center;
   color: #666666; }
 
-.top-nav-about {
+.top-nav-about,
+.top-nav-contact {
   width: 100%;
   height: 53px;
   background-color: #eeeeee; }
 
-.top-header-about {
+.top-header-about,
+.top-header-contact {
   padding: 0 20rem 0 14rem; }
 
-.main-nav-about {
+.main-nav-about,
+.main-nav-contact {
   width: 100%;
   height: 93px;
   background-color: #ffffff; }
 
-.main-nav-about a {
+.main-nav-about,
+.main-nav-contact a {
   color: #666666; }
 
-.name-about {
+.name-about,
+.name-contact {
   width: 116px;
   height: 22px;
   font-family: Dosis;
@@ -499,18 +504,21 @@ p {
   text-transform: uppercase;
   padding: 0; }
 
-.home-about {
+.home-about,
+.home-contact {
   margin-left: 431px; }
 
 .book-space book-space-about {
   margin-right: 52px; }
 
-.about-header {
+.about-header,
+.contact-header {
   width: 100%;
   height: 445px;
   background-image: url(../img/black-on-black-things-picjumbo-com.jpg); }
 
-.about-title {
+.about-title,
+.contact-address {
   padding-top: 180px;
   font-family: SourceSansPro;
   font-size: 50px;
@@ -520,7 +528,8 @@ p {
   line-height: 1.2;
   letter-spacing: 5px;
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+  text-transform: uppercase; }
 
 .home-icon {
   font-family: SourceSansPro;
@@ -664,6 +673,32 @@ p {
   grid-template-columns: repeat(2, auto);
   grid-gap: 30px;
   padding: 74px 366px; }
+
+.location-page {
+  width: 1900px;
+  height: 1841px; }
+
+.location-banner {
+  width: 390px;
+  height: 200px;
+  border: solid 1px #e6e6e6;
+  background-color: #f0f0f0; }
+
+.fa-location {
+  width: 22px;
+  height: 37px;
+  font-family: Linearicons-Free;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.58;
+  letter-spacing: normal;
+  text-align: center;
+  color: #090803; }
+
+iframe {
+  margin: 0% auto; }
 
 .lookbook-btn {
   margin-top: 3rem;
