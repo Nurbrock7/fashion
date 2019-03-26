@@ -699,6 +699,33 @@ p {
   text-align: left;
   color: black; }
 
+.blog-header {
+  background-image: url(../img/blog-793047_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top; }
+
+.blog-and-share a.blog {
+  float: left;
+  text-decoration: none;
+  color: #666666; }
+.blog-and-share a.share {
+  float: right;
+  text-decoration: none;
+  color: #666666; }
+.blog-and-share li {
+  list-style: none; }
+.blog-and-share .fab {
+  padding: 0 .5rem;
+  color: #666666; }
+
+.blog-grid div img {
+  width: 370px;
+  height: 225px; }
+
+.clearfix {
+  clear: both; }
+
 .lookbook-btn {
   margin-top: 3rem;
   margin-left: 40rem;
