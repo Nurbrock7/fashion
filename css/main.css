@@ -12,7 +12,6 @@
   outline: none; }
 
 .fashion-section a {
-  background-color: #2d2827;
   position: absolute;
   top: 400px;
   right: 1128px;
@@ -468,28 +467,23 @@ p {
   text-align: center;
   color: #666666; }
 
-.top-nav-about,
-.top-nav-contact {
+.top-nav-about {
   width: 100%;
   height: 53px;
   background-color: #eeeeee; }
 
-.top-header-about,
-.top-header-contact {
+.top-header-about {
   padding: 0 20rem 0 14rem; }
 
-.main-nav-about,
-.main-nav-contact {
+.main-nav-about {
   width: 100%;
   height: 93px;
   background-color: #ffffff; }
 
-.main-nav-about,
-.main-nav-contact a {
+.main-nav-about a {
   color: #666666; }
 
-.name-about,
-.name-contact {
+.name-about {
   width: 116px;
   height: 22px;
   font-family: Dosis;
@@ -504,21 +498,18 @@ p {
   text-transform: uppercase;
   padding: 0; }
 
-.home-about,
-.home-contact {
+.home-about {
   margin-left: 431px; }
 
 .book-space book-space-about {
   margin-right: 52px; }
 
-.about-header,
-.contact-header {
+.about-header {
   width: 100%;
   height: 445px;
   background-image: url(../img/black-on-black-things-picjumbo-com.jpg); }
 
-.about-title,
-.contact-address {
+.about-title {
   padding-top: 180px;
   font-family: SourceSansPro;
   font-size: 50px;
@@ -528,8 +519,7 @@ p {
   line-height: 1.2;
   letter-spacing: 5px;
   text-align: center;
-  color: #ffffff;
-  text-transform: uppercase; }
+  color: #ffffff; }
 
 .home-icon {
   font-family: SourceSansPro;
@@ -596,6 +586,7 @@ p {
   height: 800px; }
 
 .blog-header {
+  background-image: url(/images/supreme-louis-vuitton-nike-air-huarache-run-monogram-brown-shoes-men-7-hypemini_107_1800x1800.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top; }
@@ -674,31 +665,39 @@ p {
   grid-gap: 30px;
   padding: 74px 366px; }
 
-.location-page {
-  width: 1900px;
-  height: 1841px; }
+.main-nav-shop-page {
+  width: 100%;
+  height: 93px;
+  background-color: #ffffff; }
 
-.location-banner {
-  width: 390px;
-  height: 200px;
-  border: solid 1px #e6e6e6;
-  background-color: #f0f0f0; }
+.main-nav-shop-page a {
+  color: #666666; }
 
-.fa-location {
-  width: 22px;
-  height: 37px;
-  font-family: Linearicons-Free;
-  font-size: 36px;
-  font-weight: normal;
+.shop-name-page {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  letter-spacing: 8.5px; }
+
+.home-shop {
+  margin-left: 8rem; }
+
+.shop-name-img {
+  width: 470px;
+  height: 470px;
+  background-color: #666666; }
+
+.shop.product {
+  width: 240px;
+  height: 27px;
+  font-family: SourceSansPro;
+  font-size: 30px;
+  font-weight: 600;
   font-style: normal;
   font-stretch: normal;
-  line-height: 0.58;
+  line-height: 0.83;
   letter-spacing: normal;
-  text-align: center;
-  color: #090803; }
-
-iframe {
-  margin: 0% auto; }
+  text-align: left;
+  color: black; }
 
 .lookbook-btn {
   margin-top: 3rem;
