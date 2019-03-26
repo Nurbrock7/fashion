@@ -727,30 +727,25 @@ padding: 74px 366px; }
 // Blog
 
 .blog-header {
-    background-image: url(../img/blog-793047_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 .blog-and-share {
-
     a.blog {
         float: left;
         text-decoration: none;
         color: #666666;
     }
-
     a.share {
         float: right;
         text-decoration: none;
         color: #666666;
     }
-
     li {
         list-style: none;
     }
-
     .fab {
         padding: 0 .5rem;
         color: #666666;
