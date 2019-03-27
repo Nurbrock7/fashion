@@ -72,7 +72,7 @@ html {
 
 header {
   color: #000000;
-  background-image: url(../images/background-fashion.jpg);
+  background-image: url(../images/supreme.jpg);
   background-color: #000000;
   background-repeat: no-repeat;
   background-size: cover;
@@ -587,7 +587,7 @@ p {
   height: 800px; }
 
 .blog-header {
-  background-image: url(/images/supreme-louis-vuitton-nike-air-huarache-run-monogram-brown-shoes-men-7-hypemini_107_1800x1800.jpg);
+  background-image: url(../images/supreme-louis-vuitton-nike-air-huarache-run-monogram-brown-shoes-men-7-hypemini_107_1800x1800.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top; }
@@ -694,6 +694,23 @@ p {
   text-align: left;
   color: black; }
 
+.results-container {
+  width: 1900px;
+  height: 2769px; }
+
+.results {
+  height: 14px;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+  padding-left: 365px; }
+
 .main-nav-blog {
   padding: 2rem;
   text-transform: uppercase;
@@ -728,28 +745,30 @@ p {
   color: #ffffff;
   font-display: uppercase; }
 
-.blog-and-share a.blog {
+.share-blog a.blog {
   float: left;
   text-decoration: none;
   color: #666666; }
-.blog-and-share a.share {
+.share-blog a.share-breadcrumb {
   float: right;
   text-decoration: none;
   color: #666666; }
-.blog-and-share li {
+.share-blog li {
   list-style: none; }
-.blog-and-share .fab {
+.share-blog .fab {
   padding: 0 .5rem;
   color: #666666; }
 
 .blog-img-grid div img {
+  display: grid;
   width: 370px;
-  height: 225px; }
+  height: 225px;
+  grid-template-columns: repeat(2, auto); }
 
 .clearfix {
   clear: both; }
 
-.blog {
+.blog-banner {
   width: 27px;
   height: 15px;
   font-family: SourceSansPro;

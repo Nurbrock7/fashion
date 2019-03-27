@@ -1,4 +1,3 @@
-// Featured Products
 
 .featured-imgs {
     display: grid;
@@ -7,16 +6,12 @@
     grid-gap: 30px;
 }
 
-// New Collection
-
 .collection-imgs {
     display: grid;
     grid-template-columns: repeat(2, auto);
     padding: 2rem 11rem;
     grid-gap: 30px;
 }
-
-// Blog section
 
 .blog {
     display: grid;
@@ -25,7 +20,6 @@
     grid-gap: 30px;
 }
 
-// Main Footer
 
 .main-footer {
     display: grid;
@@ -110,4 +104,14 @@
 .img-gallery img {
     width: 470px;
     height: 373px;
+}
+
+// Blog 
+
+.blog-img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    ""
 }
