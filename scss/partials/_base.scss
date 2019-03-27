@@ -73,7 +73,7 @@ margin: 21px 9px; }
 
 header {
 color: #000000;
-//   background-image: url(../images/background-fashion.jpg);
+background-image: url(../images/background-fashion.jpg);
 background-color: #000000;
 background-repeat: no-repeat;
 background-size: cover;
@@ -615,11 +615,6 @@ grid-template-columns: repeat(2, auto);
 padding: 2rem 11rem;
 grid-gap: 30px; }
 
-.blog {
-display: grid;
-grid-template-columns: repeat(2, auto);
-padding: 2rem 11rem;
-grid-gap: 30px; }
 
 // Footer styling
 
@@ -724,35 +719,63 @@ padding: 74px 366px; }
 }
 
 
-// Blog
+// Blog page------------
+
+.main-nav-blog {
+    padding: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Dosis', sans-serif; }
+    .main-nav li {
+    list-style: none;
+    display: inline-block; }
+    .main-nav a {
+    text-decoration: none;
+    padding: 1.3rem;
+    color: black; }
 
 .blog-header {
+    background-image: url(/images/background-fashion.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
 
+.blog-title {
+    padding-top: 180px; 
+    font-family: SourceSansPro;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-display: uppercase;
+ }
+
 .blog-and-share {
-    a.blog {
-        float: left;
-        text-decoration: none;
-        color: #666666;
-    }
-    a.share {
-        float: right;
-        text-decoration: none;
-        color: #666666;
-    }
-    li {
-        list-style: none;
-    }
-    .fab {
-        padding: 0 .5rem;
-        color: #666666;
-    }
+a.blog {
+    float: left;
+    text-decoration: none;
+    color: #666666;
+}
+a.share {
+    float: right;
+    text-decoration: none;
+    color: #666666;
+}
+li {
+    list-style: none;
+}
+.fab {
+    padding: 0 .5rem;
+    color: #666666;
+}
 }
 
-.blog-grid div img {
+.blog-img-grid div img {
     width: 370px;
     height: 225px;
 }
@@ -760,3 +783,20 @@ padding: 74px 366px; }
 .clearfix {
     clear: both;
 }
+
+.blog {
+    width: 27px;
+    height: 15px;
+    font-family: SourceSansPro;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding: 2rem 11rem;
+    grid-gap: 30px; }
