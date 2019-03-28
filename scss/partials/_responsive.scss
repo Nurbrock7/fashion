@@ -1,22 +1,208 @@
-/*code for mobile devices smaller than 600px*/
-body { background-color: blue; }
+// // Main Footer Media Queries
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-   body { background-color: red; }
-} 
+@media (max-width: 1200px) {
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-   body { background-color: green; }
-} 
+   // Top Nav
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-   body { background-color: yellow; }
-} 
+   .top-header {
+       font-size: 12px;
+       padding: 0 10rem;
+   }
+   
+   .fas,
+   .fab {
+       margin: 14px 3px;
+   }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-   body { background-color: orange; }
+   // Main Nav
+
+   .main-nav {
+       padding: 1rem;
+       text-transform: uppercase;
+       text-align: center;
+       font-family: 'Dosis', sans-serif;
+   
+       li {
+           list-style: none;
+           display: inline-block;
+   
+       }
+   
+       a {
+           text-decoration: none;
+           padding: 1rem;
+           color: #ffffff;
+       }
+   }
+   
+   // Company Name
+   
+   .name {
+       font-family: 'Dosis', sans-serif;
+       font-size: 30px;
+       letter-spacing: 8.5px;
+   }
+
+   .home {
+       margin-left: 1.5rem;
+   }
+   
+   .book-space {
+       margin-right: 1.5rem;
+   }
+
+   // Featured Product section
+
+   .team-img-1,
+   .team-img-2,
+   .team-img-3 {
+       width: 250px;
+       height: 240px;
 }
+
+   // Collection section
+
+   .collection-img-1,
+   .collection-img-2 {
+       width: 250px;
+       height: 240px;
+   }
+
+   // Craft section
+
+   .showcase-goods-section {
+       height: 452px;
+       background-image: url(../img/18926.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       position: relative;
+   }
+
+   .craft-heading {
+       position: absolute;
+       top: 199px;
+       right: 1137px;
+       bottom: 316px;
+       left: 33px;
+       width: 530px;
+       height: 37px;
+       font-family: 'Dosis', sans-serif;
+       font-size: 48px;
+       font-weight: normal;
+       font-style: normal;
+       font-stretch: normal;
+       line-height: 0.5;
+       letter-spacing: normal;
+       text-align: center;
+       color: #ffffff;
+   }
+
+   .craft-paragraph {
+       position: absolute;
+       top: 275px;
+       right: 975px;
+       bottom: 239px;
+       left: 89px;
+       width: 656px;
+       height: 38px;
+       font-family: 'SourceSansPro', sans-serif;
+       font-size: 15px;
+       font-weight: normal;
+       font-style: normal;
+       font-stretch: normal;
+       line-height: 1.6;
+       letter-spacing: normal;
+       text-align: left;
+       color: #ffffff;
+   }
+
+   .view-more-btn {
+       transform: translateX(-33.5rem);
+       padding: 4px 10px;
+       font-family: 'SourceSansPro', sans-serif;
+       font-size: 10px;
+       font-weight: normal;
+       font-style: normal;
+       font-stretch: normal;
+       line-height: 3.2;
+       letter-spacing: normal;
+       color: #ffffff;
+       background-color: #a88d7b;
+       text-transform: uppercase;
+       border: none;
+   }
+
+   // Blog section
+
+   .blog {
+       display: grid;
+       grid-template-columns: repeat(2, auto);
+       padding: 1rem 5rem;
+       grid-gap: 30px;
+   }
+
+   .blog-img {
+       width: 400px;
+       height: 300px;
+   }
+
+   // Main Footer
+
+   .main-footer {
+       display: grid;
+       grid-template-columns: repeat(2, auto);
+   }
+
+   .instagram-photos {
+       display: grid;
+       grid-template-columns: repeat(3, 5rem);
+       grid-row-gap: 8px;
+       grid-column-gap: 8px;
+       justify-items: center;
+   }
+}
+
+@media (max-width: 800px) {
+
+   // Featured Section - grid
+
+   .featured-imgs {
+       display: grid;
+       grid-template-columns: repeat(2, auto);
+       padding: 2rem 8rem;
+       grid-gap: 30px;
+   }
+
+   // Featured Product section
+
+   .team-img-1,
+   .team-img-2,
+   .team-img-3 {
+       width: 250px;
+       height: 240px;
+   }
+}
+
+// Responsive nav
+
+// @media only screen and (max-width: 768px) {
+//     #toggle {display: block}
+
+//     .main-nav {
+
+//         ul {
+//             width: 100%;
+//             display: none;
+//         }
+   
+//         li {
+//             display: block;
+//             text-align: center;
+//         }
+//     } 
+
+//     .active {
+//         display: block;
+//     }
+// }

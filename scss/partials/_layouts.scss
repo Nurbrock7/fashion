@@ -1,3 +1,6 @@
+// Index
+
+// Featured Products
 
 .featured-imgs {
     display: grid;
@@ -6,12 +9,18 @@
     grid-gap: 30px;
 }
 
+// New Collection
+
 .collection-imgs {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    padding: 2rem 11rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 7rem;
     grid-gap: 30px;
 }
+
+// Blog section
 
 .blog {
     display: grid;
@@ -20,6 +29,7 @@
     grid-gap: 30px;
 }
 
+// Main Footer
 
 .main-footer {
     display: grid;
@@ -37,6 +47,8 @@
 
 //----------------------------------------------------------------------------------------------------------------------
 
+// About Page
+
 // About section
 
 .this-is-us {
@@ -48,6 +60,8 @@
 }
 
 //------------------------------------------------------------------------------------------------------------------------
+
+// Contact Page
 
 // Contact Us
 
@@ -81,11 +95,43 @@
 
 // Contact form
 
-.contact-form {
+.grid-form {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-gap: 30px;
-    padding: 74px 366px;
+    padding: 3rem 0;
+
+}
+
+#form-text {
+    grid-column: span 2;
+    grid-row: 3;
+    resize: none;
+}
+
+#form-button {
+    grid-column: span 1;
+    grid-row: 4;
+}
+
+#form-name,
+#form-email,
+#form-number,
+#form-subject {
+    width: 570px;
+    height: 50px;
+}
+
+//---------------------------------------------------------------------------------------------------------------------------------------------
+
+// Blog grid
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 //---------------------------------------------------------------------------------------------------------------------------------------------
@@ -95,23 +141,16 @@
 .img-gallery {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-gap: 0px;
-    object-fit: contain;
+    grid-gap: 0;
     align-items: center;
     justify-content: center;
+    background-color: #2d2827;
 }
 
 .img-gallery img {
-    width: 470px;
-    height: 373px;
-}
-
-// Blog 
-
-.blog-img-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    ""
+    width: 100%;
+    height: 420px;
+    outline: none;
+    border: solid #fff;
+    border-width: 3px;
 }
