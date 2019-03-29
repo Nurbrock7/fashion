@@ -8,10 +8,6 @@ html {
   margin: 0%;
   scroll-behavior: smooth; }
 
-.fas,
-.fab {
-  margin: 21px 9px; }
-
 header {
   color: #000000;
   background-image: url(../images/earphones_01-1280w.jpg);
@@ -133,18 +129,6 @@ p {
   padding: 2rem 8rem;
   grid-gap: 30px; }
 
-.main-footer {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  background-color: #2d2827; }
-
-.instagram-photos {
-  display: grid;
-  grid-template-columns: repeat(4, 5rem);
-  grid-row-gap: 16px;
-  grid-column-gap: 16px;
-  justify-items: center; }
-
 .team {
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -162,70 +146,6 @@ p {
   width: 1170px;
   margin: 0 auto;
   padding: 9rem; }
-
-.main-nav-blog {
-  padding: 2rem;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: 'Dosis', sans-serif; }
-
-.main-nav li {
-  list-style: none;
-  display: inline-block; }
-
-.main-nav a {
-  text-decoration: none;
-  padding: 1.3rem;
-  color: black; }
-
-.blog-header {
-  background-image: url(/images/background-fashion.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top; }
-
-.main-nav-about a {
-  color: black; }
-
-.share-blog a.blog {
-  float: left;
-  text-decoration: none;
-  color: #666666; }
-.share-blog a.share-breadcrumb {
-  float: right;
-  text-decoration: none;
-  color: #666666; }
-.share-blog li {
-  list-style: none; }
-.share-blog .fab {
-  padding: 0 .5rem;
-  color: #666666; }
-
-.blog-img-grid div img {
-  display: grid;
-  width: 370px;
-  height: 225px;
-  grid-template-columns: repeat(2, auto); }
-
-.clearfix {
-  clear: both; }
-
-.blog-banner {
-  width: 27px;
-  height: 15px;
-  font-family: SourceSansPro;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.4;
-  letter-spacing: normal;
-  text-align: center;
-  color: #666666;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  padding: 2rem 11rem;
-  grid-gap: 30px; }
 
 .top-nav {
   width: 100%;
@@ -473,159 +393,6 @@ p {
   line-height: 1.67;
   letter-spacing: normal;
   text-align: left;
-  color: #666666; }
-
-.main-nav-shop-page {
-  width: 100%;
-  height: 93px;
-  background-color: #ffffff;
-  color: #494949; }
-
-.main-nav-shop-page a {
-  color: #666666; }
-
-.shop-name-page {
-  font-family: 'Dosis', sans-serif;
-  font-size: 30px;
-  letter-spacing: 8.5px; }
-
-.home-shop {
-  margin-left: 8rem; }
-
-.shop-name-img {
-  width: 470px;
-  height: 470px;
-  background-color: #666666; }
-
-.shop.product {
-  width: 240px;
-  height: 27px;
-  font-family: SourceSansPro;
-  font-size: 30px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.83;
-  letter-spacing: normal;
-  text-align: left;
-  color: black; }
-
-.results-container {
-  width: 1900px;
-  height: 2769px; }
-
-.results {
-  height: 14px;
-  font-family: SourceSansPro;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.4;
-  letter-spacing: normal;
-  text-align: left;
-  color: #494949;
-  padding-left: 365px; }
-
-.order {
-  text-align: right;
-  width: 88px;
-  height: 11px;
-  font-family: SourceSansPro;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.4;
-  letter-spacing: normal;
-  text-align: right;
-  color: #666666; }
-
-.order-container {
-  width: 1900px;
-  height: 2769px; }
-
-.main-footer {
-  padding: 60px; }
-
-.footer-name h2 {
-  font-family: Dosis;
-  font-size: 30px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: .5rem;
-  text-align: left;
-  color: #e5e5e5;
-  text-transform: uppercase; }
-
-.footer-name p {
-  text-align: left; }
-
-.footer-name h2 {
-  padding-bottom: 1.3rem; }
-
-.footer-feat h4,
-.main-footer-categories h4,
-.instagram h4 {
-  font-family: SourceSansPro;
-  font-size: 18px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  text-align: left;
-  color: #e5e5e5;
-  text-transform: uppercase;
-  padding-bottom: 1.3rem; }
-
-.footer-feat h6,
-.main-footer-categories h6,
-.instagram h6 {
-  font-family: SourceSansPro;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.6;
-  letter-spacing: normal;
-  text-align: left;
-  color: #999999;
-  text-transform: capitalize;
-  padding-bottom: 1rem; }
-
-.main-footer p,
-.main-footer h6 {
-  font-family: SourceSansPro;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.6;
-  letter-spacing: normal;
-  text-align: left;
-  color: #999999; }
-
-.fas {
-  margin-left: 0;
-  padding-left: 0; }
-
-.footer-end {
-  width: 100%;
-  height: 85px;
-  background-color: #d7d7d7; }
-
-.footer-end h2 {
-  font-family: SourceSansPro;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 85px;
-  letter-spacing: normal;
-  text-align: center;
   color: #666666; }
 
 .top-nav-about {
@@ -947,6 +714,251 @@ p {
   grid-template-columns: repeat(2, auto);
   padding: 2rem 11rem;
   grid-gap: 30px; }
+
+.main-nav-shop-page {
+  width: 100%;
+  height: 93px;
+  background-color: #ffffff;
+  color: #494949; }
+
+.main-nav-shop-page a {
+  color: #666666; }
+
+.shop-name-page {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  letter-spacing: 8.5px; }
+
+.home-shop {
+  margin-left: 8rem; }
+
+.shop-name-img {
+  width: 470px;
+  height: 470px;
+  background-color: #666666; }
+
+.shop.product {
+  width: 240px;
+  height: 27px;
+  font-family: SourceSansPro;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: black; }
+
+.results-container {
+  height: 91px;
+  margin: 0, auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+.results {
+  place-content: start;
+  height: 14px;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+  padding-left: 365px; }
+
+.order {
+  margin-right: 50px;
+  padding-left: 400px;
+  place-content: end;
+  text-align: right;
+  height: 11px;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: right;
+  color: #666666; }
+
+.shop-img {
+  width: 300px;
+  margin-left: 365px;
+  margin-right: 50px;
+  margin-top: 60px; }
+
+.shop-product {
+  margin-bottom: 26px;
+  width: 105px;
+  height: 18px;
+  font-family: SourceSansPro;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333; }
+
+.shop-product-coat {
+  margin-top: 50px;
+  margin-bottom: 26px;
+  height: 18px;
+  font-family: SourceSansPro;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333; }
+
+.amount {
+  margin-bottom: 40px;
+  width: 64px;
+  height: 12px;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999; }
+
+.shop-text {
+  margin-bottom: 47px;
+  width: 805px;
+  height: 64px;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666; }
+
+.shop.btn {
+  width: 180px;
+  height: 44px;
+  text-transform: uppercase;
+  background-color: #ac907f; }
+
+.shop-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+.shop-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr; }
+
+.fa-shopping-cart-btn {
+  margin: 0%; }
+
+.main-footer {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  background-color: #2d2827; }
+
+.instagram-photos {
+  display: grid;
+  grid-template-columns: repeat(4, 5rem);
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  justify-items: center; }
+
+.main-footer {
+  padding: 60px; }
+
+.footer-name h2 {
+  font-family: Dosis;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: .5rem;
+  text-align: left;
+  color: #e5e5e5;
+  text-transform: uppercase; }
+
+.footer-name p {
+  text-align: left; }
+
+.footer-name h2 {
+  padding-bottom: 1.3rem; }
+
+.footer-feat h4,
+.main-footer-categories h4,
+.instagram h4 {
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e5e5e5;
+  text-transform: uppercase;
+  padding-bottom: 1.3rem; }
+
+.footer-feat h6,
+.main-footer-categories h6,
+.instagram h6 {
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
+  text-transform: capitalize;
+  padding-bottom: 1rem; }
+
+.main-footer p,
+.main-footer h6 {
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999; }
+
+.fas {
+  margin-left: 0;
+  padding-left: 0; }
+
+.footer-end {
+  width: 100%;
+  height: 85px;
+  background-color: #d7d7d7; }
+
+.footer-end h2 {
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 85px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #666666; }
 
 .book-btn {
   display: block;

@@ -14,9 +14,9 @@ margin: 0%;
 scroll-behavior: smooth; }
 
 
-.fas,
-.fab {
-margin: 21px 9px; }
+// .fas,
+// .fab {
+// margin: 21px 9px; }
 
 header {
 color: #000000;
@@ -150,17 +150,7 @@ grid-gap: 30px; }
 
 // Footer styling
 
-.main-footer {
-display: grid;
-grid-template-columns: repeat(4, auto);
-background-color: #2d2827; }
 
-.instagram-photos {
-display: grid;
-grid-template-columns: repeat(4, 5rem);
-grid-row-gap: 16px;
-grid-column-gap: 16px;
-justify-items: center; }
 
 .team {
 display: grid;
@@ -202,78 +192,3 @@ padding: 9rem; }
 
 
 
-
-// Blog page------------
-
-.main-nav-blog {
-    padding: 2rem;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Dosis', sans-serif; }
-    .main-nav li {
-    list-style: none;
-    display: inline-block; }
-    .main-nav a {
-    text-decoration: none;
-    padding: 1.3rem;
-    color: black; }
-
-.blog-header {
-    background-image: url(/images/background-fashion.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-}
-
-
-
-.main-nav-about a {
-    color: black; }
-
-.share-blog {
-a.blog {
-    float: left;
-    text-decoration: none;
-    color: #666666;
-}
-a.share-breadcrumb {
-    float: right;
-    text-decoration: none;
-    color: #666666;
-}
-li {
-    list-style: none;
-}
-.fab {
-    padding: 0 .5rem;
-    color: #666666;
-}
-}
-
-.blog-img-grid div img {
-    display: grid;
-    width: 370px;
-    height: 225px;
-    grid-template-columns: repeat(2, auto);
-}
-
-.clearfix {
-    clear: both;
-}
-
-.blog-banner {
-    width: 27px;
-    height: 15px;
-    font-family: SourceSansPro;
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.4;
-    letter-spacing: normal;
-    text-align: center;
-    color: #666666;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    padding: 2rem 11rem;
-    grid-gap: 30px; }
