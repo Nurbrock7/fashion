@@ -162,96 +162,6 @@ p {
   margin: 0 auto;
   padding: 9rem; }
 
-.find-us .contact-address,
-.find-us .contact-opening-hours {
-  width: 390px;
-  height: 200px;
-  border: solid 1px #e6e6e6;
-  background-color: #f0f0f0; }
-
-.find-us .contact-details .phone,
-.find-us .contact-details .email {
-  width: 390px;
-  height: 100px;
-  border: solid 1px #e6e6e6;
-  background-color: #f0f0f0; }
-
-.contact-form {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-gap: 30px;
-  padding: 74px 366px; }
-
-.main-nav-shop-page {
-  width: 100%;
-  height: 93px;
-  background-color: #ffffff;
-  color: #494949; }
-
-.main-nav-shop-page a {
-  color: #666666; }
-
-.shop-name-page {
-  font-family: 'Dosis', sans-serif;
-  font-size: 30px;
-  letter-spacing: 8.5px; }
-
-.home-shop {
-  margin-left: 8rem; }
-
-.shop-name-img {
-  width: 470px;
-  height: 470px;
-  background-color: #666666; }
-
-.shop.product {
-  width: 240px;
-  height: 27px;
-  font-family: SourceSansPro;
-  font-size: 30px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.83;
-  letter-spacing: normal;
-  text-align: left;
-  color: black; }
-
-.results-container {
-  width: 1900px;
-  height: 2769px; }
-
-.results {
-  height: 14px;
-  font-family: SourceSansPro;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.4;
-  letter-spacing: normal;
-  text-align: left;
-  color: #494949;
-  padding-left: 365px; }
-
-.order {
-  text-align: right;
-  width: 88px;
-  height: 11px;
-  font-family: SourceSansPro;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.4;
-  letter-spacing: normal;
-  text-align: right;
-  color: #666666; }
-
-.order-container {
-  width: 1900px;
-  height: 2769px; }
-
 .main-nav-blog {
   padding: 2rem;
   text-transform: uppercase;
@@ -428,6 +338,7 @@ p {
 
 .product-section-title,
 .collection-section-title {
+  font-family: SourceSansPro;
   text-transform: uppercase;
   text-align: center;
   padding: 2.5rem 0 .5rem 0; }
@@ -437,6 +348,11 @@ p {
 .team-img-3 {
   width: 370px;
   height: 360px; }
+
+.collection-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px; }
 
 .collection-img-1,
 .collection-img-2 {
@@ -508,13 +424,13 @@ p {
   line-height: 1.92;
   letter-spacing: normal;
   color: #333333;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  display: grid; }
 
 .main-blog {
   padding-bottom: 50px;
   margin-bottom: 1rem;
-  margin-left: 50%;
-  width: 156px;
+  text-align: center;
   height: 24px;
   font-family: SourceSansPro;
   font-size: 36px;
@@ -526,7 +442,12 @@ p {
   text-align: center;
   color: var(--black-three); }
 
+.blog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
 .main-blog-heading {
+  display: grid;
   font-family: SourceSansPro;
   font-size: 25px;
   font-weight: 600;
@@ -539,6 +460,7 @@ p {
   text-transform: capitalize; }
 
 .main-blog-date {
+  display: grid;
   font-family: SourceSansPro;
   font-size: 15px;
   font-weight: normal;
@@ -562,6 +484,76 @@ p {
   letter-spacing: normal;
   text-align: left;
   color: #666666; }
+
+.main-nav-shop-page {
+  width: 100%;
+  height: 93px;
+  background-color: #ffffff;
+  color: #494949; }
+
+.main-nav-shop-page a {
+  color: #666666; }
+
+.shop-name-page {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  letter-spacing: 8.5px; }
+
+.home-shop {
+  margin-left: 8rem; }
+
+.shop-name-img {
+  width: 470px;
+  height: 470px;
+  background-color: #666666; }
+
+.shop.product {
+  width: 240px;
+  height: 27px;
+  font-family: SourceSansPro;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: black; }
+
+.results-container {
+  width: 1900px;
+  height: 2769px; }
+
+.results {
+  height: 14px;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+  padding-left: 365px; }
+
+.order {
+  text-align: right;
+  width: 88px;
+  height: 11px;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: right;
+  color: #666666; }
+
+.order-container {
+  width: 1900px;
+  height: 2769px; }
 
 .main-footer {
   padding: 60px; }
