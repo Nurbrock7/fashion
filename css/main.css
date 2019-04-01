@@ -872,7 +872,9 @@ p {
 #cart {
   width: 180px !important;
   height: 44px !important;
-  background-color: #ac907f !important; }
+  background-color: #ac907f !important;
+  text-transform: uppercase;
+  padding-bottom: 20px; }
 
 .main-footer {
   display: grid;
