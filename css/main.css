@@ -808,7 +808,6 @@ section img {
 
 .shop-product {
   margin-bottom: 26px;
-  width: 105px;
   height: 18px;
   font-family: SourceSansPro;
   font-size: 25px;
@@ -848,6 +847,9 @@ section img {
   text-align: left;
   color: #999999; }
 
+.shop-content {
+  padding-top: 50px; }
+
 .shop-text {
   margin-bottom: 47px;
   width: 805px;
@@ -885,7 +887,7 @@ section img {
   height: 44px !important;
   background-color: #ac907f !important;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   color: white; }
 
 .main-footer {
@@ -901,7 +903,8 @@ section img {
   justify-items: center; }
 
 .main-footer {
-  padding: 60px; }
+  padding: 60px;
+  margin-top: 50px; }
 
 .footer-name h2 {
   font-family: Dosis;
