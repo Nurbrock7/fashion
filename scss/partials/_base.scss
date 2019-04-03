@@ -21,8 +21,7 @@ margin: 21px 9px; }
 
 header {
 color: #000000;
-background-image: url(../images/earphones_01-1280w.jpg);
-background-color: #000000;
+background-color: #a99d7b;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: bottom;
@@ -193,3 +192,19 @@ padding: 9rem; }
 
 
 
+// MASONARY GALLERY
+
+body{
+    margin: 0;
+  }
+  
+  section{
+    column-width: 300px;
+    // column-gap: 5px;
+    padding: 5px;
+    background-color: black;
+  }
+  
+  section img{
+    width: 80%; 
+  }
