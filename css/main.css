@@ -155,8 +155,7 @@ body {
 
 section {
   column-width: 300px;
-  padding: 5px;
-  background-color: black; }
+  padding: 5px; }
 
 section img {
   width: 80%; }
@@ -261,12 +260,26 @@ section img {
   outline: none;
   font-family: 'SourceSansPro', sans-serif; }
 
+.featured-imgs {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  padding: 2rem 8rem;
+  grid-gap: 30px; }
+
 .product-section-title,
 .collection-section-title {
-  font-family: SourceSansPro;
   text-transform: uppercase;
+  width: 313px;
+  height: 24px;
+  font-family: SourceSansPro;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
   text-align: center;
-  padding: 2.5rem 0 .5rem 0; }
+  color: #333333; }
 
 .team-img-1,
 .team-img-2,
@@ -1145,12 +1158,6 @@ section img {
     grid-column-gap: 8px;
     justify-items: center; } }
 @media (max-width: 800px) {
-  .featured-imgs {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    padding: 2rem 8rem;
-    grid-gap: 30px; }
-
   .team-img-1,
   .team-img-2,
   .team-img-3 {

@@ -107,15 +107,41 @@ margin-right: 9rem; }
     font-family: 'SourceSansPro', sans-serif; }
 
 
+    .featured-imgs {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        padding: 2rem 8rem;
+        grid-gap: 30px;
+    }
+
+
 
 .product-section-title,
 .collection-section-title
  {
 
-    font-family: SourceSansPro;
     text-transform: uppercase;
+    width: 313px;
+
+    height: 24px;
+  
+    font-family: SourceSansPro;
+  
+    font-size: 36px;
+  
+    font-weight: normal;
+  
+    font-style: normal;
+  
+    font-stretch: normal;
+  
+    line-height: 1.33;
+  
+    letter-spacing: normal;
+  
     text-align: center;
-    padding: 2.5rem 0 .5rem 0; 
+
+    color: #333333;
 }
 
 .team-img-1,
