@@ -1,4 +1,587 @@
-.main-blog-section {
-    display: grid;
-    grid-template-rows: 1fr 1fr ;
+// Global layouts
+
+.main-grid {
+    grid-template-areas: 
+        "top"
+        "header"
+        "feat"
+        "collection"
+        "banner"
+        "blog"
+        "footer";
 }
+    .top {
+        grid-area: top;
+        background: $banners;
+        height: 53px;
+        .top-content {
+            display: grid;
+            margin: 0 auto;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-areas: 
+                "menus text icons";
+
+            .widgets-left {
+                grid-area: menus;
+            }
+            .text-centered {
+                grid-area: text;
+            }
+            .social-links-right {
+                grid-area: icons;
+            }
+        }
+        
+    }
+    .header {
+        grid-area: header;
+
+        display: grid;
+        grid-template-areas:
+            "nav"
+            "text";
+
+        .navbar {
+            grid-area: nav;
+            color: $white2;
+
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            grid-template-areas: 
+                "search ul basket";
+
+            .search-icon-left {
+                grid-area: search;
+                display: grid;
+                place-content: center start;
+            }
+            .main-navbar-center {
+                grid-area: ul;
+            }
+            .shop-basket-right {
+                grid-area: basket;
+                display: grid;
+                place-content: center end;    
+            }
+
+        }
+        .header-text {
+            grid-area: text;
+
+            display: grid;
+            grid-template-areas: 
+                "title"
+                "content"
+                "btn"
+                "arrow";
+
+            .header-text-title {
+                grid-area: title;
+            }
+            .header-text-content {
+                grid-area: content;
+            }
+            .header-text-button {
+                grid-area: btn;
+            }
+            .down-arrow {
+                grid-area: arrow;
+            }
+        }
+    }
+    .featured {
+        height: 15.6%;
+        grid-area: feat;
+        background: $white1;
+        .featured-grid {
+            margin-top: 60px; 
+            place-content: center;
+            grid-gap: 2em;
+            display: grid;
+            grid-template-areas: 
+                "fig1 fig2 fig3";
+        
+            .figure-left  {
+                grid-area: fig1;
+            }
+            .figure-center {
+                grid-area: fig2;
+            }
+            .figure-right {
+                grid-area: fig3;
+            }
+
+            .featured-figure {
+                
+                display: grid;
+                grid-template-areas:
+                    "img"
+                    "text";
+                .figure-img {
+                    grid-area: img;
+                }
+                .figure-text {
+                    grid-area: text;
+                }
+            }
+        }
+    }
+    .collection {
+        height: 44.0625rem;
+        grid-area: collection;
+        background: $white2;
+        .collection-grid {
+            margin-top: 70px;
+            display: grid;
+            place-content: center;
+            grid-gap: 30px;
+            grid-template-areas: 
+                "winter casual";
+            .winter {
+                grid-area: winter;
+            }
+            .casual {
+                grid-area: casual;
+            }
+        }
+    }
+    .banner {
+        height: 34.5rem;
+        grid-area: banner;
+        background: linear-gradient($blackOP , $blackOP ) ,  url(../images/leather-jacket.jpg)  !important; 
+        background-repeat: no-repeat !important;       
+        background-size: cover !important;
+        background-position: bottom left !important;
+        
+
+        .banner-content {
+            display: grid;
+            width: 656px;
+            margin-left: 19.4%;
+            margin-right:  46.1%;
+
+            grid-template-areas: 
+                "title"
+                "text"
+                "btn";
+            .banner-title {
+                margin-top: 25%;
+                grid-area: title;
+            }
+            .banner-text {
+                grid-area: text;
+            }
+            .banner-button {
+                grid-area: btn;
+            }
+        }
+    }
+    .blog {
+        height: 41.9375rem;
+        grid-area: blog;
+        background: $white3;
+        .blog-grid {
+            display: grid;
+            margin: 3.75rem auto 0 ;
+            place-content: center;
+            grid-gap: 3.125rem;
+            grid-template-areas: 
+                "img text";
+            
+            .blog-img {
+                grid-area: img;
+            }
+            .blog-text {
+                grid-area: text;
+
+                display: grid;
+                grid-template-areas:
+                    "title"
+                    "date"
+                    "text"
+                    "link";
+                .blog-text-title {
+                    grid-area: title;
+                }
+                #greyed {
+                    grid-area: date;
+                }
+                .blog-text-content {
+                    grid-area: text;
+                }
+                .read-more-btn {
+                    grid-area: link;
+                }
+
+            }
+        }
+    }
+    .footer {
+        grid-area:  footer;
+        height: 26.5625rem;
+        background: $banners;
+
+        .footer-grid {
+            padding-top: 60px;
+            display: grid;
+            grid-gap: 6%;
+            grid-template-areas:
+                "sec1 sec2";
+            
+            .footer-left-section {
+                grid-area: sec1;
+                place-items: start;
+            }
+            .footer-right-section {
+                grid-area: sec2;
+                place-content: top end;
+
+                display: grid;
+                grid-gap: 2em;
+                grid-template-areas: 
+                    "links shop ig";
+
+                .footer-links {
+                    grid-area: links;
+                }
+                .footer-shop {
+                    grid-area: shop;
+                }
+                .footer-instagram {
+                    grid-area: ig;
+
+                    .instagram-widget-grid {
+                        place-content: start;
+                        display: grid;
+                        grid-gap: 10px;
+                        grid-template-columns: repeat(4, auto);
+                        grid-template-rows: repeat(2, 1fr);
+                    }
+                }
+
+            }
+        
+        }
+    }
+    .bottom {
+        height: 5.3125rem;
+        grid-area : bottom;
+        background: $grey;
+        display: grid;
+        place-content: center;
+    }
+
+// About page
+
+.about {
+        background: $greyed3 !important;
+}
+#inner {
+    width: 70%;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-areas:
+        "top"
+        "nav"
+        "about"
+        "primary"
+        "team"
+        "secondary"
+        "footer"
+        "bottom"
+}
+
+
+#navbar-light{
+    background: $white2;
+    
+    .navbar-content { 
+        display: grid;            
+        grid-template-columns: 1fr 5fr 1fr;
+        grid-template-areas: 
+            "left ul right";
+        
+        .logo-left {
+            grid-area: left;
+
+        }
+        .main-navbar {
+            grid-area: ul;
+            display: grid;
+            place-content: center end;
+            grid-template-areas:
+                "link1 link2 link3 link4 link5 link6";
+
+            .navbar-links {
+                
+            color: $black2 !important;
+            }
+        }
+        .widgets-right {
+            display: grid;
+            grid-area: right;
+            place-content: center end;
+            grid-gap: 1em;
+            grid-template-areas:
+                "icon1 icon2";
+            .fas {
+                color: #666666 !important;
+            }
+            .fa-shopping {
+                grid-area: icon1;
+            }
+            .fa-search {
+                grid-area: icon2;
+            }
+        }
+    }
+}
+
+.primary-grid {
+    display: grid;
+    margin-top: 60px;
+    margin-bottom: 100px; 
+    grid-gap: 54px;
+    grid-template-rows: 490px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "left right";
+}
+
+
+.team-grid {
+    place-content: center !important;
+    padding-top: 82px;
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-template-areas: 
+        "fig1 fig2 fig3 fig4";
+    
+    .figure1 {
+        grid-area: fig1;
+    }
+    .figure2 {
+        grid-area: fig2;
+    }
+    .figure3 {
+        grid-area: fig3;
+    }
+    .figure4 {
+        grid-area: fig4;
+    }
+
+}
+
+.what-we-do-grid {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    grid-gap: 36px;
+    display: grid;
+    place-content: center;
+    grid-template-areas: 
+        "left right";
+    .mission-left {
+        grid-area: left;
+    }
+    .mission-right {
+        grid-area: right;
+
+        #first {
+            margin-top: 22px;
+        }
+        p {
+            margin-bottom: 36px;
+            width: 530px;
+        }
+    }
+}
+
+// contact page 
+
+
+.contact-box-grid {
+    display: grid;
+    place-content: center;
+    grid-template-areas:
+        "left center right";
+    
+    .box-left {
+        grid-area: left;
+    }
+    .box-center {
+        grid-area: center;
+        display: grid;
+        grid-template-rows: repeat(2, 50%);
+        grid-template-areas:
+            "top"
+            "bottom";
+        .center-top {
+            grid-area: top;
+        }
+        .center-bottom {
+            grid-area: bottom;
+        }
+    }
+    .box-right {
+        grid-area: right;
+    }
+}
+
+
+// blog page 
+
+.blog-share-pane {
+    color: #666666;
+    width: 70%;
+    margin: 29px auto 23px;
+    display: grid;
+    grid-template-areas:
+        "left right";
+    .left-pane {
+        grid-area: left;
+    }
+    .right-pane {
+        grid-area: right;
+        display: grid;
+        place-content: end;
+        grid-gap: 12px;
+
+        grid-template-areas:
+            "txt icons";
+        
+        p {
+            grid-area: txt;
+        }
+        .blog-share {
+            grid-area: icons;
+            i {
+                padding: 0 .4em;
+            }
+        }
+    }
+}
+
+.underline {
+    margin: 24px auto 0;
+    background: #e6e6e6;
+    height: 1px;
+    outline: none;
+    border: none;
+}
+
+.blog-line{
+    width: 70% !important;
+}
+
+.blog-page-grid {
+    margin: 60px auto;
+    grid-gap: 29px;
+    width: 80%;
+    display: grid;
+    place-content: center;
+    grid-template-areas:
+        "fig1 fig2 fig3"
+        "fig4 fig5 fig6";
+    
+    .item1 {
+        grid-area: fig1;
+    }
+    .item2 {
+        grid-area: fig2;
+    }
+    .item3 {
+        grid-area: fig3;
+    }
+    .item4 {
+        grid-area: fig4;
+    }
+    .item5 {
+        grid-area: fig5;
+    }
+    .item6 {
+        grid-area: fig6;
+    }
+    
+}
+
+// Lookbook 
+.masonry-gallery {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 60px auto 100px;
+    grid-gap: 20px;
+
+
+
+    .img-container {
+        position: relative;
+        overflow: hidden;
+
+        img {
+            object-fit: cover;
+            object-position: center; 
+            display: block;
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            transition: all .2s;
+            transform: scale(1);
+            filter: blur(1px);
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            transition: all .2s;
+            
+            a {
+                position: absolute;
+                bottom: 2%;
+                left: 86%;
+                font-size: 1em;
+                color: white;
+                background: $mushroom;
+                padding: 1em;
+                opacity: 0;
+            }
+        }
+    }
+    .span_1 {
+        grid-column: span 0;
+        grid-row: span 2;
+    }
+    .span_2 {
+        grid-column: span 1;
+    }
+    .span_3 {
+        grid-row: span 2;
+    }
+    .span_4 {
+        grid-column: span  2;
+    }
+
+    .img-container:hover .overlay {
+        background: $overlay;
+        transition: width  all .2s;
+        width: 100%;
+        
+    }
+    .img-container:hover a {
+        opacity: 1;
+    }
+    .img-container:hover img  {
+        transform: scale(1.08);
+        filter: blur(0px);
+    }
+}
+
+.pp_social {
+    display: none !important;
+}
+
