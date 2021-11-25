@@ -229,7 +229,575 @@
         console.log("calculating discount", products, totalPrice, totalQuantity);
         return totalPrice * 0.5;
       }
+    });<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NATEB | Shop </title>
+    <link rel="icon" type="image/ico" href="images/icon.ico">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Dosis" rel="stylesheet">
+
+</head>
+<body>
+    <!-- gloabl jumplink mobile and desktop -->
+    <div id="top"></div>
+
+    <!-- top section for desktip (light) -->
+    <section class="top about">
+        <section class="top-content" id="inner">
+            <acrticle class="widgets-left">
+                <select class="top-select" name="language" id="lang">
+                    <option value="english">EN</option>
+                    <option value="spanish">ES</option>
+                    <option value="french">FS</option>
+                    <option value="italioan">IT</option>
+                </select>
+
+                <article class="scoial-links-right">
+                <!-- social icons float right -->
+                    <ul class="top-social-links-ul">
+                        <a href="#" class="social link1"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social link2"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social link3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social link4"><i class="fab fa-pinterest"></i></a>
+                    </ul>
+                </article>
+            </acrticle>
+                
+            <article class="text-centered">
+                <!-- banner text center -->
+                <p id="bigger">
+                    FREE SHIPPING FOR STANDARD ORDER OVER R100
+                </p>
+            </article>
+
+            <section id="about-only">
+                <select class="top-select" name="currency" id="currency">
+                    <option value="rands">ZAR</option>
+                    <option value="euro">EUR</option>
+                    <option value="USA dollar">USD</option>
+                    <option value="australian dollar">AUD</option>
+                </select>  
+            </section> 
+        </section>
+    </section>
+    
+    <!-- top section for mobile -->
+    <section class="top mobile-top" id="light">
+        <section class="top-content">
+            <acrticle class="widgets-left">
+                <!-- language & currency float left -->
+                <select class="top-select" name="language" id="lang">
+                    <option value="english">EN</option>
+                    <option value="spanish">ES</option>
+                    <option value="french">FS</option>
+                    <option value="italioan">IT</option>
+                </select>
+                    
+                <select class="top-select" name="currency" id="currency">
+                    <option value="rands">ZAR</option>
+                    <option value="euro">EUR</option>
+                    <option value="USA dollar">USD</option>
+                    <option value="australian dollar">AUD</option>
+                </select>
+            </acrticle>
+                    
+            <article class="text-centered">
+                <!-- banner text center -->
+                <p id="bigger">FREE SHIPPING FOR STANDARD ORDER OVER R100</p>
+            </article>
+
+            <article class="scoial-links-right">
+                <!-- social icons float right -->
+                <ul class="top-social-links-ul">
+                    <a href="#" class="social link1"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social link2"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social link3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social link4"><i class="fab fa-pinterest"></i></a>
+                </ul>
+            </article>
+        </section>
+    </section>
+    
+    <!-- light background navbar for desktop -->
+    <nav class="navbar" id="navbar-light">   
+        <section class="navbar-content">
+            <sec class="logo-left">
+                <a href="index.html">
+                    <img class="nav-logo"   src="images/nateb-logo-dark.png" alt="">
+                </a>
+            </sec>
+
+            <ul class="main-navbar">
+                <a href="index.html"    class="navbar-links link1">Home</a>
+                <a href="shop.html"     class="navbar-links link2">Shop</a>
+                <a href="about.html"    class="navbar-links link3">About</a>
+                <a href="blog.html"     class="navbar-links link4">Blog</a>
+                <a href="contact.html"  class="navbar-links link5">Contact</a>
+                <a href="lookbook.html" class="navbar-links link6">Lookbook</a>
+            </ul>
+
+            <sec class="widgets-right">
+                <a href="#">
+                    <i class="fas fa-shopping-cart open-cart"></i>
+                </a>
+                <a href="#"><i class="fas fa-search"></i></a>
+            </sec>
+        </section>
+    </nav>
+    
+    <!-- navbar for mobile -->
+    <nav class="navbar-mobile dark">
+        <section class="front-container">
+            <a href="index.html" class="logo"><img src="images/nateb-logo-dark-cropped.png" alt="logo"></a>
+            <a href="#" class="icons icon1 "><i class="fas fa-shopping-cart"></i></a>
+            <a href="#" class="icons icon2"><i class="fas fa-search"></i></a>
+
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="lookbook.html">Lookbook</a></li>
+            </ul>
+        </section>
+    </nav>
+    
+    <!-- header section which contains breadcrumb navigation to home and title -->
+    <header class="bread-crumb-container">
+        <h1 class="crumb-title">Shop</h1>
+        <p><a href="index.html">Home</a>     <span>/</span> <span id="text">Shop</span> </p>
+    </header>
+
+    
+    <section class="cart"> 
+        <h2>Your Cart</h2>
+        <button class="close">&times; </button>
+        
+        <section class="header-for-titles">
+            <h5>Name</h5>
+            <h5>Qty</h5>
+            <h5>Price</h5>
+        </section>
+        <section class="items-listed">
+            <p>Your cart is empty</p>
+        </section>
+
+        <h5 id="right">Total: R<span class="total"></span></h5>
+
+        <button id="clear">Clear Cart</button>
+    </section>
+
+    <!-- top of page -->
+    <section class="page-top">
+        <p class="top-left">Showing 4 of 12 results</p>
+        <p class="top-right">Select order <i class="fas fa-angle-down"></i></p>
+    </section>
+
+    <section class="shop-container">
+        <article class="shop-content">
+
+            <section class="page_1">
+                <!-- first product to list -->
+                <section class="product one item">
+                    <section class="product-container-img" id="container-img">
+                        <img>
+                    </section>
+
+                    <section class="product-content">
+                        <h3 id="title"></h3> <span>♡</span>
+                        <p id="price"></p>
+                        <p id="details"></p>
+                        
+                        <button class="addto" data-name="Slim Fit Shirt Cut Away Collar" data-price="350">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>add to cart</p>
+                        </button>
+                    </section>
+                </section>
+        
+                <!-- second product showing on page -->
+                <section class="product two item">
+                    <section class="product-container-img" id="container-img">
+                        <img src="#" alt="">
+                    </section>
+
+                    <section class="product-content">
+                        <h3 id="title"></h3> <span>♡</span>
+                        <p id="price"></p>
+                        <p id="details"></p>
+
+                        <button class="addto" data-name="Assorted Knitted Jerseys" data-price="400">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>add to cart</p>
+                        </button>
+                    </section>
+                </section>
+
+                <!-- third product on page -->
+                <section class="product three item">
+                    <section class="product-container-img" id="container-img">
+                        <img src="#" alt="">
+                    </section>
+
+                    <section class="product-content">
+                        <h3 id="title"></h3> <span>♡</span>
+                        <p id="price"></p>
+                        <p id="details"></p>
+
+                        <button class="addto" data-name="Slim Fit Suit 100% Wool" data-price="900">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>add to cart</p>
+                        </button>
+                    </section>
+                </section>
+
+                <!-- forth product showing on page -->
+                <section class="product four item">
+                    <section class="product-container-img" id="container-img">
+                    </section>
+
+                    <section class="product-content">
+                        <h3 id="title"></h3> <span>♡</span>
+                        <p id="price"></p>
+                        <p id="details"></p>
+
+                        <button class="addto" data-name="Bird Eye Suit" data-price="950">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>add to cart</p>
+                        </button>
+                    </section>
+                </section>
+            </section>
+
+           
+            <section class="page_2">
+                <!-- fifth product -->
+                <section class="product five item">
+                    <section class="product-container-img" id="container-img">
+                        <img src="#" alt="">
+                    </section>
+
+                    <section class="product-content">
+                        <h3 id="title"></h3> <span>♡</span>
+                        <p id="price"></p>
+                        <p id="details"></p>
+
+                        <button class="addto" data-name="Slim Fit Chino Trousers" data-price="400"> 
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>add to cart</p>
+                        </button>
+                    </section>
+                </section>
+
+                <!-- sixth product -->
+                <section class="product six item">
+                    <section class="product-container-img" id="container-img">
+                        <img src="#" alt="">
+                    </section>
+
+                    <section class="product-content">
+                        <h3 id="title"></h3> <span>♡</span>
+                        <p id="price"></p>
+                        <p id="details"></p>
+
+                        <button class="addto" data-name="Leather Shoulder Bag" data-price="600" >
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>add to cart</p>
+                        </button>
+                    </section>
+                </section>
+
+                <!-- seventh product -->
+                <section class="product seven item">
+                    <section class="product-container-img" id="container-img">
+                        <img src="#" alt="">
+                    </section>
+
+                    <section class="product-content">
+                        <h3 id="title"></h3> <span>♡</span>
+                        <p id="price"></p>
+                        <p id="details"></p>
+
+                        <button class="addto" data-name="Assorted Happy Socks" data-price="200">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>add to cart</p>
+                        </button>
+                    </section>
+                </section>
+
+                <!-- eighth product -->
+                <section class="product eight item">
+                    <section class="product-container-img" id="container-img">
+                        <img src="#" alt="">
+                    </section>
+
+                    <section class="product-content">
+                        <h3 id="title"></h3> <span>♡</span>
+                        <p id="price"></p>
+                        <p id="details"></p>
+
+                        <button class="addto" data-name="Grey Check Jacket" data-price="700">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>add to cart</p>
+                        </button>
+                    </section>
+                </section>
+            </section>
+
+            <section class="page_3">
+                <!-- ninth product -->
+                <section class="product nine item">
+                    <section class="product-container-img" id="container-img">
+                        <img src="#" alt="">
+                    </section>
+
+                    <section class="product-content">
+                        <h3 id="title"></h3> <span>♡</span>
+                        <p id="price"></p>
+                        <p id="details"></p>
+
+                        <button class="addto" data-name="Black and White Texture Waistcoat" data-price="460">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>add to cart</p>
+                        </button>
+                    </section>
+                </section>
+
+                <!-- tenth product -->
+                <section class="product ten item">
+                    <section class="product-container-img" id="container-img">
+                        <img src="#" alt="">
+                    </section>
+
+                    <section class="product-content">
+                        <h3 id="title"></h3> <span>♡</span>
+                        <p id="price"></p>
+                        <p id="details"></p>
+
+                        <button class="addto" data-name="Slim Fit Navy Technical Raincoat" data-price="570" >
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>add to cart</p>
+                        </button>
+                    </section>
+                </section>
+
+                <!-- elleventh product -->
+                <section class="product elleven item">
+                    <section class="product-container-img" id="container-img">
+                        <img src="#" alt="">
+                    </section>
+
+                    <section class="product-content">
+                        <h3 id="title"></h3> <span>♡</span>
+                        <p id="price"></p>
+                        <p id="details"></p>
+
+                        <button class="addto" data-name="Slim Fit Stone Cotton Raincoat" data-price="700">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>add to cart</p>
+                        </button>
+                    </section>
+                </section>
+
+                <!-- twelthe product -->
+                <section class="product twelve item">
+                    <section class="product-container-img" id="container-img">
+                        <img src="#" alt="">
+                    </section>
+
+                    <section class="product-content">
+                        <h3 id="title"></h3> <span>♡</span>
+                        <p id="price"></p>
+                        <p id="details"></p>
+
+                        <button class="addto" data-name="Denim Blue Wool Crew-Neck Jumper" data-price="300">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>add to cart</p>
+                        </button>
+                    </section>
+                </section>
+            </section>
+            
+
+            <!-- pagenation -->
+            <section class="page-number">
+                <button class="page_1_btn">1</button>
+                <button class="page_2_btn">2</button>
+                <button class="page_3_btn">3</button>
+            </section>
+        </article>
+    </section>
+    
+    <!-- footer section -->
+    <footer class="footer">
+        <section class="footer-content">
+            <!-- grid container -->
+            <article class="footer-grid">
+                <!-- left section -->
+                <section class="footer-left-section">
+                    <!-- LOGO  -->
+                    <h1 class="footer-logo">NATEB</h1>
+
+                    <!-- contact details -->
+                    <ul class="footer-contact-details">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p><a href="contact.html#map">379 5th Ave Rondebosch, CT 7700</a></p>
+                        </li>
+                        
+                        <li>
+                            <i class="fas fa-phone"></i>  
+                            <p><a href="contact.html">(+27) 78 372 2074</a></p>
+                        </li>
+                        
+                        <li>
+                            <i class="far fa-envelope"></i>
+                            <p><a href="contact.html">contact@nate_nonpareil.com</a></p>
+                        </li>
+                    </ul>
+                </section>
+                
+                <!-- footer right section -->
+                <section class="footer-right-section">
+                    <article class="footer-links">
+                        <h4 class="right-title">LINKS</h4>  
+                        
+                        <ul>
+                            <li><a href="shop.html">Products</a></li>
+                            <li><a href="index.html#feat">Featured</a></li>
+                            <li>Privacy Policy</li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                    </article>
+
+                    <article class="footer-shop">
+                        <h4 class="right-title">
+                            <a href="shop.html">SHOP</a>
+                        </h4>  
+                        
+                        <ul>
+                            <li><a href="shop.html">Men</a></li>
+                            <li><a href="shop.html">Trending</a></li>
+                            <li><a href="shop.html">Catalog</a></li>
+                            <li><a href="contact.html">Support</a></li>
+                        </ul>
+                    </article>
+
+                    <article class="footer-instagram">
+                        <h4 class="right-title">
+                            INSTAGRAM
+                        </h4>  
+                        
+                        <section class="instagram-widget-grid">
+                            <div id="container-img">
+                                <img src="images/business-clocks-compressed.jpg" alt="">
+                            </div>
+                            
+                            <div id="container-img">
+                                <img src="images/shirt-blue.jpg" alt="">
+                            </div>
+                            
+                            <div id="container-img">
+                                <img src="images/blog-watch-dw.jpg" alt="">
+                            </div>
+                            
+                            <div id="container-img">
+                                <img src="images/ass-color-jerseys-compressed.jpg" alt="">
+                            </div>
+                            
+                            <div id="container-img">
+                                <img src="images/checkered-jacket.jpg" alt="">
+                            </div>
+
+                            <div id="container-img">
+                                <img src="images/texture-waist-coat.jpg " alt="">
+                            </div>
+                            
+                            <div id="container-img">
+                                <img src="images/analog-watch-on-book.jpg" alt="">
+                            </div>
+                            
+                            <div id="container-img">
+                                <img src="images/white-suit.jpg" alt="">
+                            </div>                           
+                        </section>
+
+                    </article>
+                </section>
+            </article>
+        </section>
+    </footer>
+
+        <section class="bottom">
+            <p>Copyright © 2019 Designed by nate_nonpareil | Created by ImraanMeyer. All rights reserved.</p>
+        </section>
+
+        <div class="scroll-top">
+            <a> ↑ </a>
+        </div>
+    </section>
+
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+    <script src="js/product.js"></script>
+    <script src="js/main.js"></script>
+    
+
+    <script>   
+    $(document).ready(function() {
+        $(".page_1_btn").addClass("active")
+        $(".page_1_btn").click(function() {
+            $(".page_2").css("display" , "none")
+            $(".page_3").css("display" , "none")
+            $(".page_1").fadeIn(300)
+            $(".page_1").css("display" , "block")
+            $(".page_1_btn").addClass("active")
+            $(".page_2_btn").removeClass("active")
+            $(".page_3_btn").removeClass("active")
+        });
+        $(".page_2_btn").click(function() {
+            $(".page_1").css("display" , "none")
+            $(".page_3").css("display" , "none")
+            $(".page_2").fadeIn(300)
+            $(".page_2").css("display" , "block")
+            $(".page_2_btn").addClass("active")
+            $(".page_1_btn").removeClass("active")
+            $(".page_3_btn").removeClass("active")
+        });
+        $(".page_3_btn").click(function() {
+            $(".page_2").css("display" , "none")
+            $(".page_1").css("display" , "none")
+            $(".page_3").fadeIn(300),
+            $(".page_3").css("display" , "block")
+            $(".page_3_btn").addClass("active")
+            $(".page_2_btn").removeClass("active")
+            $(".page_1_btn").removeClass("active")
+        });
+        $(".addto").click(function() {
+            $(".cart").css('opacity' , '1')
+        })
+        $(".close").click(function() {
+            $(".cart").css('opacity' , '0')
+        });
+        $(".open-cart").click(function(){
+            $(".cart").css('opacity' , '1')
+        });
     });
+</script>
+</body>
+</html>
 
     $("#addNewProduct").click(function(event) {
       var currentElementNo = $(".row").children().length + 1;
