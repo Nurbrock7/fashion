@@ -1,174 +1,422 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Fishy Fashions</title>
-<link rel="shortcut icon" href="img/window-png/nb.png" type="image/x-icon">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Dosis" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <title>NATEB | High End Formal Mens Wear</title>
+    <link rel="icon" type="image/ico" href="images/icon.ico">
 </head>
 <body>
+    <div id="top"></div>
 
-<!-- this is my top-nav bar -->
+    <!-- top section of site -->
+    <section class="main-grid">
+        <section class="top" >
+            <section class="top-content">
+                <acrticle class="widgets-left">
+                    <!-- language & currency float left -->
+                   <select class="top-select" name="language" id="lang">
+                       <option value="english">EN</option>
+                       <option value="spanish">ES</option>
+                       <option value="french">FS</option>
+                       <option value="italioan">IT</option>
+                   </select>
+                   
+                   <select class="top-select" name="currency" id="currency">
+                       <option value="rands">ZAR</option>
+                       <option value="euro">EUR</option>
+                       <option value="USA dollar">USD</option>
+                       <option value="australian dollar">AUD</option>
+                   </select>
+               </acrticle>
+                   
+               <article class="text-centered">
+                   <!-- banner text center -->
+                   <p id="bigger">
+                       FREE SHIPPING FOR STANDARD ORDER OVER R100
+                   </p>
+               </article>
+   
+               <article class="scoial-links-right">
+                   <!-- social icons float right -->
+                   <ul class="top-social-links-ul">
+                       <a href="#" class="social link1"><i class="fab fa-facebook-f"></i></a>
+                       <a href="#" class="social link2"><i class="fab fa-google-plus-g"></i></a>
+                       <a href="#" class="social link3"><i class="fab fa-twitter"></i></a>
+                       <a href="#" class="social link4"><i class="fab fa-pinterest"></i></a>
+                   </ul>
+               </article>
+            </section>
+        </section>
+        
+        <header class="header">
+            <!-- insert hero image bg? -->
+            <nav class="navbar-mobile">
+                <section class="front-container">
+                    <a href="index.html" class="logo"><img src="images/nateb-logo-light.png " alt="logo"></a>
+                    <a href="#" class="icons icon1"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#" class="icons icon2"><i class="fas fa-search"></i></a>
 
-<nav class="top-nav">
-<ul>
-<li><a href="#">en<i class="fas fa-angle-down"></i></a></li>
-<li><a href="#">zar<i class="fas fa-angle-down"></i></a></li>
-<li><a href="#"><h2 class="top-header">free shipping for standard order over R100</h2></a></li>
-<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-<li><a href="https://plus.google.com/discover"><i class="fab fa-google-plus-g"></i></a></li>
-<li><a href="https://twitter.com/login"><i class="fab fa-twitter"></i></a></li>
-<li><a href="https://za.pinterest.com/"><i class="fab fa-pinterest"></i></a></li>
-</ul>
-</nav>
+                    <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                
+                <ul class="menu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="lookbook.html">Lookbook</a></li>
+                </ul>
+                </section>
+                
+            </nav>
 
-<!-- this is my main nav underneath my top nav -->
+            <section class="header-content">
+                <nav class="navbar">
+                    <sec class="search-icon-left">
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </sec>
 
-<header>
-<nav class="main-nav">
-<ul>
-<!-- Listed items in my nav bar -->
-<li><a href="#"><i class="fas fa-search"></i></a></li>
-<li><a href="index.html" class="home">home</a></li>
-<li><a href="shop.html">shop</a></li>
-<li><a href="about.html">about</a></li>
-<li><a href="index.html" class="name">nateb</a></li>
-<li><a href="blog.html">blog</a></li>
-<li><a href="contact.html">contact</a></li>
-<li><a href="lookbook.html" class="book-space">lookbook</a></li>
-<li><a href="shop.html"><i class="fas fa-shopping-cart"></i></a></li>
-</ul>
-</nav>
-<h1 class="main-heading">Fishing for the latest in fashion</h1>
-<p class="main-paragraph">Welcome to our the best page in Fashin and design. At Fishy Fashion we will find a pool full of any type of clothing you want!</p>
-<a href="lookbook.html"></a><button type="button" class="book-btn">look book</button></a>
+                    <ul class="main-navbar-center">
+                        <a href="index.html"    class="navbar-links link1">Home</a>
+                        <a href="shop.html"     class="navbar-links link2">Shop</a>
+                        <a href="about.html"    class="navbar-links link3">About</a>
+                        
+                        <!-- logo inserted for navbar -->
+                        <a href="index.html">
+                            <img class="nav-logo"   src="images/nateb-logo-light.png" alt="">
+                        </a>
 
-<section class="arrow">
-<article class="arrow-downflick">
-    <span></span>
-    
-    
-</article>
-</section></a>
-</header>
+                        <a href="blog.html"     class="navbar-links link4">Blog</a>
+                        <a href="contact.html"  class="navbar-links link5">Contact</a>
+                        <a href="lookbook.html" class="navbar-links link6">Lookbook</a>
+                    </ul>
 
-<!--this is the featured product div at the -->
+                    <sec class="shop-basket-right">
+                        <a href="shop.html">
+                                <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </sec>
+                </nav>
 
-<section id="featured-section">
-<hr>
-<div class="featured-imgs">
-    <div>
-            <h1 class="product-section-title">featured product</h1>
+                <!-- Text that displays below the header -->
+                <article class="header-text">
+                    <h1 class="header-text-title">The World Is Your Runway</h1>
+                    <p class="header-text-content">
+                        "Fashion you can buy, but style you possess. The key to style is learning who you are, which takes years. There's no how-to road map to style. It's about self expression and, above all, attitude." —Iris Apfel   
+                    </p>
+                    
+                    <a href="lookbook.html" class="header-text-button">
+                        Lookbook           
+                    </a>
 
-        <img src="images/louis-vuitton--Men.jpg" alt="" class="team-img-1">
-        <h4>Louis Vuitton Jacket</h4>
-        <p>R9000</p>
-    </div>
-    <div>
-        <img src="images/supreme.jpg" alt="" class="team-img-2">
-        <button>new</button>
-        <h4>LV Supreme Duffle Bag</h4>
-        <p>R150 000</p>
-    </div>
-    <div>
-        <img src="images/lvw.jpg" alt="" class="team-img-3">
-        <h4>LV Army Coat Navy</h4>
-        <p>R30 000</p>
-    </div>
-</div>
-</section>
+                    <button onclick="downSmooth()" class="down-arrow">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </article>
+            </section>
+        </header>
 
-<section>
-<h1 class="collection-section-title">new collection</h1>
-<hr>
-<div class="collection-imgs">
-    <div>
-        <img src="images/men-fashion-dressing-the-luxury-male-traveller,jpg.jpg" alt="" class="collection-img-1">
-        <h3 style="text-transform:uppercase">Mens Traveller</h3>
-    </div>
-    <div class="colection-img-2">
-        <img src="images/girl-1828536__480.jpg" alt="" class="collection-img-2">
-        <h3 style="text-transform:uppercase">Womens Denim Jacket</h3>
-    </div>
-</div>
-</div>
-</section>
+        <!-- first section (featured section) -->
+        <section class="featured" id="feat">
+            <section class="featured-content">
+                <!-- section header -->
+                <h1 id="container-title">Featured Product</h1>
 
+                <!-- grid container for items -->
+                <article class="featured-grid">
 
-<section class="fashion-section">
-<h2 class="fashion-heading"> <i>Fashion</i> </h2>
-<p class="fashion-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo excepturi assumenda perferendis maiores quia corporis nihil commodi, dolorum dolor veritatis quam libero eaque laborum impedit tenetur natus inventore illum blanditiis.</p>
-<a href="" target="blank" ><button type="button" class="view-more-btn">view more</button></a>
-</section>
+                    <!-- figure left (1st figure) -->
+                    <section class="featured-figure figure-left" 
+                        data-aos="zoom-in"
+                        data-aos-anchor-placement="center-bottom"
+                        data-aos-duration="400"
+                        data-aos-delay="100"
+                    >
+                        <!-- container img -->
+                        <section class="figure-img" id="container-img">
+                            <img src="images/solid-colour-slim-fit-suit-in-wool-compressed.jpg" alt="solid-colour-slim-fit-suit-in-wool">
+                        </section>
 
+                        <!-- container text -->
+                        <section class="figure-text">
+                                <h4>Slim Fit Suit 100% Wool</h4>
+                                <p>R900</p>
+                        </section>
+                    </section>
 
-    
-<section class="main-blog-section" id="main-blog-section">
-<h1 class="main-blog">our blog</h1>
+                    <!-- figure center (2nd figure) -->
+                    <section class="featured-figure figure-center"
+                        data-aos="zoom-in"
+                        data-aos-anchor-placement="center-bottom"
+                        data-aos-duration="400"
+                        data-aos-delay="200"
+                    >
+                        <!-- container img -->
+                        <section class="figure-img" id="container-img">
+                            <img src="images/slim-fit-shirt-cut-away-collar-compressed.jpg" alt="slim-fit-shirt-cut-away-collar">
 
-<div class="blog">
+                            <p class="new-item">new</p>
+                        </section>
 
-    <div>
-        <img class="blog_image" src="images/pic4.jpg" alt="blog_image" width="585px" 
-        height="405px">
-    </div>
-    <div>
-        <h2 class="main-blog-heading">Clothing that <i>suits</i> your daily fashion habit</h2>
-        <figure class="main-blog-date">march 15, 2018</figure>
-        <p class="main-blog-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate ut quas odit quo, quae pariatur accusamus hic unde quod, fugiat voluptate adipisci dolore laboriosam recusandae ea quasi, quibusdam earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptates suscipit exercitationem magnam est culpa aliquam amet nostrum? Reprehenderit impedit, tempora exercitationem aut laborum ex eveniet vel hic reiciendis.
-        </p>
-    </div>
-</div>
-</section>
+                        <!-- container text -->
+                        <section class="figure-text">
+                            <h4>Slim Fit Shirt Cut Away Collar</h4>
+                            <p>R350</p>
+                        </section>
+                    </section>
 
+                    <!-- figure right (3rd figure) -->
+                    <section class="featured-figure figure-right"
+                        data-aos="zoom-in"
+                        data-aos-anchor-placement="center-bottom"
+                        data-aos-duration="400"
+                        data-aos-delay="300"
+                    >
+                        <!-- container img -->
+                        <section class="figure-img" id="container-img">
+                            <img id="third" src="images/solid-colour-slim-fit-stretch-chino-trousers-compressed.jpg" alt="solid-colour-slim-fit-stretch-chino-trousers-compressed">
+                        </section>
 
+                        <!-- container text -->
+                        <section class="figure-text">
+                            <h4>Slim Fit Chino Trousers</h4>
+                            <p>R400</p>
+                        </section>
+                    </section>
+                </article>
+            </section>  
+        </section>
 
+        <!-- next section (collection items) -->
+        <section class="collection" >
+            <section class="collection-content">
+                <!-- title -->
+                <h1 id="container-title">New Collection</h1>
 
-<footer class="main-footer">
-<div class="footer-name">
-    <h2>nateb</h2>
-    <p><i class="fas fa-map-marker-alt"></i>    379 5th ave rondebosch, CT 7700</p>
-    <p><i class="fas fa-phone" style="transform:rotateY(180deg); -webkit-transform:rotateY(180deg);"></i> 078 964 5131</p>
-    <p><i class="fas fa-envelope"></i>nubrock7@gmail.com</p>
-</div>
-<div class="footer-feat">
-    <h4>links</h4>
-    <h6>products</h6>
-    <h6>featured</h6>
-    <h6>privacy policy</h6>
-    <h6>blog</h6>
-</div>
-<div class="main-footer-categories">
-    <h4>shop</h4>
-    <h6>men</h6>
-    <h6>women</h6>
-    <h6>catalog</h6>
-    <h6>support</h6>
-</div>
-<div class="instagram">
-    <h4>instagram</h4>*
-    <div class="instagram-photos">
-        <img src="images/pic1.jpg" alt="" width="80px" height="80px">
-        <img src="images/pic2.jpg" alt="" width="80px" height="80px">
-        <img src="images/pic3.jpg" alt="" width="80px" height="80px">
-        <img src="images/pic4.jpg" alt="" width="80px" height="80px">
-        <img src="images/pic5.jpg" alt="" width="80px" height="80px">
-        <img src="images/pic6.jpg" alt="" width="80px" height="80px">
-        <img src="images/pic7.jpg" alt="" width="80px" height="80px">
-        <img src="images/earphones_01-1280w.jpg" alt="" width="80px" height="80px">
-    </div>
-</div>
-</footer>
+                <!-- grid container -->
+                <article class="collection-grid">
 
-<footer class="footer-end">
-<h2>Copyright Designed by nate_nonpareil. All rights reserved.</h2>
-</footer>
+                    <!-- left section (winter collection) -->
+                    <article class="collection-item winter" data-aos-delay="400" data-aos="fade-up" data-aos-duration="600">
+                        <!-- img container -->
+                        <section class="collection-img-wrapper" id="container-img">
+                            <img src="images/knitted-pullover-cotton-compressed.jpg" alt="knitted-pullover-cotton">
+                        </section>
+                        
+                        <!-- section title -->
+                        <h3 class="collection-text">
+                            winter collection
+                        </h3>
+                    </article>
 
+                    <!-- right section (casual collection) -->
+                    <article class="collection-item casual" data-aos="fade-down" data-aos-delay="500" data-aos-duration="600">
+                        <!-- img container -->
+                        <section class="collection-img-wrapper" id="container-img">
+                            <img src="images/linen-cotton-shirt-madarin-collar-compressed.jpg" alt="linen-and-cotton-shirt-madarin-collar">
+                        </section>
 
-<script src="js/main.js"></script>
+                        <!-- section title -->
+                        <h3 class="collection-text">
+                            casual friday
+                        </h3>
+                    </article>
+                </article>
+            </section>
+        </section>
+
+        <!-- banner section -->
+        <section class="banner">
+            <section class="banner-content">
+                <!-- banner title -->
+                <h1 class="banner-title">Look Good - Feel Good</h1>
+
+                <!-- banner content -->
+                <p class="banner-text">
+                    FACT: if you don't own a leather jacket, your Winter and Spring wardrobe is not complete.
+                    Take a good look at these essentials and invest in one today — you need it. Trust us, we're experts.
+                </p>
+
+                <!-- banner btn -->
+                <a href="#" class="banner-button">
+                    view more
+                </a>
+            </section>
+        </section>
+
+        <!-- blog section -->
+        <section class="blog">
+            <section class="blog-content">
+                <!-- section title -->
+                <h1 id="container-title">Our Blog</h1>
+
+                <!-- grid container -->
+                <article class="blog-grid">
+
+                    <!-- img container -->
+                    <section class="blog-img" id="container-img" 
+                    data-aos="fade-down" 
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="200"
+                    data-aos-duration="600">
+
+                        <img src="images/blog-watch-dw.jpg" alt="watch-box-set">
+                    </section>
+
+                    <!-- container text -->
+                    <section class="blog-text" 
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="300"
+                    data-aos-duration="600">
+
+                        <!-- title -->
+                        <h3 class="blog-text-title">Accessories For Everyday Living</h3>
+                        <!-- date of post -->
+                        <p id="greyed">Feberuary 05, 2017</p>
+
+                        <!-- blog content  -->
+                        <p class="blog-text-content">
+                            We’ll never deny the outfit-amplifying powers of a statement piece of jewelry, but perhaps big showstoppers are not realistic for everyday wear—at least for some. That’s why a simple, understated, and practical accessory seems so appealing when it comes to building a well-rounded wardrobe. Specifically, a sleek, minimalist watch.
+                        </p>
+
+                        <!-- read more btn -->
+                        <a href="blog.html" class="read-more-btn">
+                            read more <span>→</span>
+                        </a>
+                    </section>
+                </article>
+            </section>
+        </section>
+
+        <!-- footer section -->
+        <footer class="footer">
+            <section class="footer-content">
+                <!-- grid container -->
+                <article class="footer-grid">
+                    <!-- left section -->
+                    <section class="footer-left-section">
+                        <!-- LOGO  -->
+                        <h1 class="footer-logo">NATEB</h1>
+
+                        <!-- contact details -->
+                        <ul class="footer-contact-details">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p><a href="contact.html#map">379 5th Ave Rondebosch, CT 7700</a></p>
+                            </li>
+                            
+                            <li>
+                                <i class="fas fa-phone"></i>  
+                                <p><a href="contact.html">(+27) 78 372 2074</a></p>
+                            </li>
+                            
+                            <li>
+                                <i class="far fa-envelope"></i>
+                                <p><a href="contact.html">contact@nate_nonpareil.com</a></p>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- footer right section -->
+                    <section class="footer-right-section">
+                        <article class="footer-links">
+                            <h4 class="right-title">LINKS</h4>  
+                            
+                            <ul>
+                                <li><a href="shop.html">Products</a></li>
+                                <li><a href="index.html#feat">Featured</a></li>
+                                <li>Privacy Policy</li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </article>
+
+                        <article class="footer-shop">
+                            <h4 class="right-title">
+                                <a href="shop.html">SHOP</a>
+                            </h4>  
+                            
+                            <ul>
+                                <li><a href="shop.html">Men</a></li>
+                                <li><a href="shop.html">Trending</a></li>
+                                <li><a href="shop.html">Catalog</a></li>
+                                <li><a href="contact.html">Support</a></li>
+                            </ul>
+                        </article>
+
+                        <article class="footer-instagram">
+                            <h4 class="right-title">
+                                INSTAGRAM
+                            </h4>  
+                            
+                            <section class="instagram-widget-grid">
+                                <div id="container-img">
+                                    <img src="images/business-clocks-compressed.jpg" alt="">
+                                </div>
+                                
+                                <div id="container-img">
+                                    <img src="images/shirt-blue.jpg" alt="">
+                                </div>
+                                
+                                <div id="container-img">
+                                    <img src="images/blog-watch-dw.jpg" alt="">
+                                </div>
+                                
+                                <div id="container-img">
+                                    <img src="images/ass-color-jerseys-compressed.jpg" alt="">
+                                </div>
+                                
+                                <div id="container-img">
+                                    <img src="images/checkered-jacket.jpg" alt="">
+                                </div>
+
+                                <div id="container-img">
+                                    <img src="images/texture-waist-coat.jpg " alt="">
+                                </div>
+                                
+                                <div id="container-img">
+                                    <img src="images/analog-watch-on-book.jpg" alt="">
+                                </div>
+                                
+                                <div id="container-img">
+                                    <img src="images/white-suit.jpg" alt="">
+                                </div>                           
+                            </section>
+
+                        </article>
+                    </section>
+                </article>
+            </section>
+        </footer>
+
+        <!-- bottom section -->
+        <section class="bottom">
+            <p>
+                Copyright © 2019 Designed by nate_nonpareil | Created by ImraanMeyer. All rights reserved.
+            </p>
+        </section>
+
+        <div class="scroll-top">
+            <a href="#" alt="Scroll To Top"> ↑ </a>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/scroll-top.js"></script>
 </body>
 </html>
